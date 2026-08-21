@@ -1,0 +1,891 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    PictureTiling = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =0
+    PictureAlignment =5
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =10770
+    ItemSuffix =528
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    DatasheetGridlinesColor =12632256
+    PaintPalette = Begin
+        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+        0xffffff0000000000
+    End
+    OnUnload ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x80e72c70b48be240
+    End
+    RecordSource ="SELECT TBLPERSONNELSSOCIETES.* FROM TBLPERSONNELSSOCIETES ORDER BY TBLPERSONNELS"
+        "SOCIETES.PerSocDateMaj DESC , TBLPERSONNELSSOCIETES.PerSocDateCre DESC; "
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    Begin
+        Begin Label
+            SpecialEffect =1
+            FontWeight =700
+            BackColor =12632256
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderWidth =3
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BackStyle =1
+            Width =1701
+            Height =1701
+            BackColor =12632256
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =3
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12632256
+            BackColor =12632256
+        End
+        Begin TextBox
+            SpecialEffect =3
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ListBox
+            SpecialEffect =3
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =3
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =3
+            Width =1701
+            Height =1701
+            BorderColor =12632256
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+        End
+        Begin FormHeader
+            Height =315
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    SpecialEffect =0
+                    BackStyle =0
+                    OldBorderStyle =1
+                    OverlapFlags =93
+                    TextAlign =1
+                    Left =840
+                    Width =2136
+                    Height =300
+                    ForeColor =0
+                    Name ="EtiPerSocPerNom"
+                    Caption ="Nom"
+                    ControlTipText ="Nom"
+                End
+                Begin Label
+                    SpecialEffect =0
+                    BackStyle =0
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =5955
+                    Width =1689
+                    Height =300
+                    ForeColor =0
+                    Name ="EtiPerSocPerSocTypCodeLibelle"
+                    Caption ="Fonction"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Fonctions"
+                End
+                Begin Label
+                    SpecialEffect =0
+                    BackStyle =0
+                    OldBorderStyle =1
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =9765
+                    Width =999
+                    Height =300
+                    ForeColor =0
+                    Name ="EtiDateAdherent"
+                    Caption ="Adh Date"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Date Adhesion"
+                End
+                Begin Label
+                    SpecialEffect =0
+                    BackStyle =0
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =8790
+                    Width =969
+                    Height =300
+                    ForeColor =0
+                    Name ="EtiDateActif"
+                    Caption ="Act Date"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Date Adhesion"
+                End
+                Begin Label
+                    SpecialEffect =0
+                    BackStyle =0
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    TextAlign =1
+                    Left =2970
+                    Width =2136
+                    Height =300
+                    ForeColor =0
+                    Name ="EtiPerSocPerPrenom"
+                    Caption ="Prenom"
+                    ControlTipText ="Prenom"
+                End
+            End
+        End
+        Begin Section
+            Height =315
+            Name ="Détail"
+            Begin
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    LimitToList = NotDefault
+                    OverlapFlags =93
+                    BackStyle =0
+                    ColumnCount =3
+                    ListWidth =6804
+                    Left =5085
+                    Top =15
+                    Width =864
+                    Height =300
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="CmbPerSocPerSocTypCode"
+                    ControlSource ="PerSocPerSocTypCode"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT SelPersonnelsSocietesTypes.* FROM SelPersonnelsSocietesTypes ORDER BY Sel"
+                        "PersonnelsSocietesTypes.PerSocTypRang; "
+                    ColumnWidths ="2268;2268;2268"
+                    StatusBarText ="Fonctions Code"
+                    ControlTipText ="Fonctions Code"
+                End
+                Begin TextBox
+                    OverlapFlags =93
+                    BackStyle =0
+                    Left =9765
+                    Top =15
+                    Width =1005
+                    Height =300
+                    TabIndex =4
+                    Name ="TxtPerSocAdhDate"
+                    ControlSource ="=Nz(DMax(\"PerSocAdhDate\",\"TBLPERSONNELSSOCIETESADHERENTS\",\"PerSocAdhPerSocN"
+                        "um=\" & [PerSocNum]),\"AUCUNE\")"
+                    StatusBarText ="Date Adherent"
+                    ControlTipText ="Date Adherent"
+                End
+                Begin TextBox
+                    OverlapFlags =93
+                    BackStyle =0
+                    Left =855
+                    Top =15
+                    Width =2115
+                    Height =300
+                    Name ="TxtPerSocPerNom"
+                    ControlSource ="=CmbPerSocPerNum.Column(2)"
+                    StatusBarText ="Personnels Nom"
+                    ControlTipText ="Personnels Nom"
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    BackStyle =0
+                    Left =5955
+                    Top =15
+                    Width =1695
+                    Height =300
+                    TabIndex =2
+                    Name ="TxtPerSocPerSocTypCodeLibelle"
+                    ControlSource ="=CmbPerSocPerSocTypCode.Column(1)"
+                    StatusBarText ="Fonctions Libelle"
+                    ControlTipText ="Fonctions Libelle"
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    BackStyle =0
+                    Left =8790
+                    Top =15
+                    Width =975
+                    Height =300
+                    TabIndex =3
+                    Name ="TxtPerSocActDate"
+                    ControlSource ="=Nz(DMax(\"PerSocActDate\",\"TBLPERSONNELSSOCIETESACTIFS\",\"PerSocActPerSocNum="
+                        "\" & [PerSocNum]),\"AUCUNE\")"
+                    StatusBarText ="Date Adherent"
+                    ControlTipText ="Date Adherent"
+                End
+                Begin ToggleButton
+                    OverlapFlags =223
+                    Left =7650
+                    Width =585
+                    Height =315
+                    TabIndex =5
+                    Name ="BslPerSocActif"
+                    ControlSource ="PerSocActif"
+                    StatusBarText ="Personnels Societes Actif"
+                    Caption ="Actif"
+                    ControlTipText ="Personnels Societes Actif"
+                End
+                Begin ToggleButton
+                    OverlapFlags =247
+                    Left =8220
+                    Width =590
+                    Height =313
+                    ColumnWidth =2700
+                    TabIndex =6
+                    Name ="BslPerSocAdherent"
+                    ControlSource ="PerSocAdherent"
+                    StatusBarText ="Personnels Societes Adherent"
+                    Caption ="Adh"
+                    ControlTipText ="Personnels Societes Adherent"
+                End
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    LimitToList = NotDefault
+                    OverlapFlags =87
+                    BackStyle =0
+                    ColumnCount =4
+                    ListWidth =6804
+                    Width =861
+                    Height =315
+                    ColumnWidth =3585
+                    TabIndex =7
+                    Name ="CmbPerSocPerNum"
+                    ControlSource ="PerSocPerNum"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT TBLPERSONNELS.PerNum, TBLPERSONNELS.PerCivCode, TBLPERSONNELS.PerNom, TBL"
+                        "PERSONNELS.PerPrenom FROM TBLPERSONNELS ORDER BY TBLPERSONNELS.PerNum; "
+                    ColumnWidths ="0;2268;2268;2268"
+                    StatusBarText ="Personnels Societes Personnels Numero"
+                    ControlTipText ="Personnels Societes Personnels Numero"
+                End
+                Begin TextBox
+                    OverlapFlags =247
+                    BackStyle =0
+                    Left =2970
+                    Top =15
+                    Width =2130
+                    Height =300
+                    TabIndex =8
+                    Name ="TxtPerSocPerPrenom"
+                    ControlSource ="=CmbPerSocPerNum.Column(3)"
+                    StatusBarText ="Personnels Prenom"
+                    ControlTipText ="Personnels Prenom"
+                End
+            End
+        End
+        Begin FormFooter
+            Visible = NotDefault
+            Height =675
+            Name ="PiedFormulaire"
+            Begin
+                Begin Rectangle
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =93
+                    Width =10770
+                    Height =660
+                    BackColor =255
+                    Name ="RecButton"
+                End
+                Begin CommandButton
+                    Enabled = NotDefault
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =8856
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    ForeColor =0
+                    Name ="CmdAnnuler"
+                    Caption ="Annuler Les Modifications En Cours"
+                    StatusBarText ="Annuler Les Modifications En Cours"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8848888888888888888888888888888888748888888888888888844444448888 ,
+                        0x8887488888888888888884444448888888887788888888888888844444888888 ,
+                        0x8888848888888888888884444788888888888488888888888888844484788888 ,
+                        0x8888848888888888888884488847888888887488888888888888848888847888 ,
+                        0x8888478888888888888888888888447888747888888888888888888888888844 ,
+                        0x4447888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Annuler Les Modifications En Cours"
+                End
+                Begin CommandButton
+                    Enabled = NotDefault
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =9488
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    TabIndex =1
+                    ForeColor =0
+                    Name ="CmdValider"
+                    Caption ="Valider Les Modifications En Cours"
+                    StatusBarText ="Valider Les Modifications En Cours"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070700070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070000070707070707070707 ,
+                        0x0707070707070707070707070707070707070707000000000707070707070707 ,
+                        0x0707070707070707070707070707070707070700000000000707070707070707 ,
+                        0x0707070707070707070707070707070707070000000000000707070707070707 ,
+                        0x0707070707070707070707070707070707000000000000000007070707070707 ,
+                        0x0707070707070707070707070707070700000000070700000007070707070707 ,
+                        0x0707070707070707070707070707070000000007070700000000070707070707 ,
+                        0x0707070707070707070707070707000000000707070707000000070707070707 ,
+                        0x0707070707070707070707070700000000070707070707000000000707070707 ,
+                        0x0707070707070707070707070700000007070707070707070000000707070707 ,
+                        0x0707070707070707070707070707070707070707070707070700000007070707 ,
+                        0x0707070707070707070707070707070707070707070707070700000007070707 ,
+                        0x0707070707070707070707070707070707070707070707070707000000070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070000000707 ,
+                        0x0707070707070707070707070707070707070707070707070707070700000707 ,
+                        0x0707070707070707070707070707070707070707070707070707070700000007 ,
+                        0x0707070707070707070707070707070707070707070707070707070707000007 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070000 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070700 ,
+                        0x0007070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0007070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0700070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707000707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070007070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070700070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707000707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003000100000000bf00000000bf0000bfbf00000000bf00bf00bf0000bfbf00 ,
+                        0xc0c0c000c0dcc000a4c8f0000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000000000000000fffbf000 ,
+                        0xa0a0a40080808000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Valider Les Modifications En Cours"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =7592
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    TabIndex =2
+                    ForeColor =0
+                    Name ="CmdSupprimer"
+                    Caption ="Supprimer Enregistrement En Cours"
+                    StatusBarText ="Supprimer Enregistrement En Cours"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00888888888888888888888888888888888888808808808008 ,
+                        0x8888888888888888888888888888800088888888888888888888888888888707 ,
+                        0x0788888888888888888888888888880870888888888008888888888888888807 ,
+                        0x8708888888800088888888888888880880708888888000078888888888888870 ,
+                        0xbb7078888880000088188888888888808b770888888000008811888888888887 ,
+                        0x0bb7708888800000887118888888718808bb7078888000008881118888881188 ,
+                        0x708b7708888000008887118888711888807bb707888000008888111888111888 ,
+                        0x8708b01088800000888871117111888888701110788000008888811111188888 ,
+                        0x8870111078800000888887111188888888870007888000008888881111888888 ,
+                        0x8888777888800008888871111178888888888888888000888887111811188888 ,
+                        0x8888888888800888871118887111888888888888888888888888888888111888 ,
+                        0x8888888888888888888888888887118888888888888888888888888888887118 ,
+                        0x8888888888888888
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Supprimer Enregistrement En Cours"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =6960
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    TabIndex =3
+                    ForeColor =0
+                    Name ="CmdModifier"
+                    Caption ="Modifier Enregistrement En Cours"
+                    StatusBarText ="Modifier Enregistrement En Cours"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x80800000c0c0c000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00777777777777777777777777777777777777777000000000 ,
+                        0x000000007700000077007770fffffffffffffff0770fffff77000770ffffffff ,
+                        0xfffffff0770fffff77808070ff888f888f888ff0770fffff77807800ffffffff ,
+                        0xfffffff0770fffff77708780fffffffffffffff0770fffff0000788800000000 ,
+                        0x0f888ff0770ff8880ff80bb808ffffff0ffffff0770ff7770fff07b880ffffff ,
+                        0x0ffffff0770ff8880f8880bb808f888f0f888ff0770ff7770ffff07b880fffff ,
+                        0x0ffffff0770ff8880ffff80bb808ffff0ffffff0770ff7770f888f07b880788f ,
+                        0x04444444770ff8880fffff80bb808fff04444444770ff7770ffffff07b880fff ,
+                        0x04444444770fffff0f888f880bb8087f07777777770fffff0fffffff07b880ff ,
+                        0x07777777770ff7770fffffff80bb808f07777777770ff88844444444407b0104 ,
+                        0x47777777770fffff444444444801110847777777770fffff4444444444011108 ,
+                        0x47777777770fffff777777777780008777777777770fffff7777777777788877 ,
+                        0x7777777777000000
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0xc0c0c00080808000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Modifier Enregistrement En Cours"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =8224
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    TabIndex =4
+                    ForeColor =0
+                    Name ="CmdAjouter"
+                    Caption ="Ajouter Un Enregistrement"
+                    StatusBarText ="Ajouter Un Enregistrement"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888888888888 ,
+                        0x8888888888888888888888888888888888888888888888888888888000000000 ,
+                        0x000000008888888888888880fffffffffffffff08888888888888880f000ff00 ,
+                        0x0ff000f08888888088888880fffffffffffffff08888888088888887f000ff00 ,
+                        0x0ff000f08888888088888887fffffffffffffff08888888088888887b000ff00 ,
+                        0x0ff000f0888888878887b887fffffffffffffff08888888788887f87b4b74444 ,
+                        0x4444444488888887888888b7fb744444444444448887b8878877778fbf777777 ,
+                        0x4444444488887f87888bfb7bfbb7b7b788888888888888b7888887b7b7f88888 ,
+                        0x888888888887778f88887b87f87b888888888888888bfb7b8887b887b887f888 ,
+                        0x88888888888887b7888b8887f8887b888888888888887b8788888887b8888888 ,
+                        0x888888888887b887888888878888888888888888888b88878888888888888888 ,
+                        0x8888888888888887
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Ajouter Un Enregistrement"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =60
+                    Top =45
+                    Width =607
+                    Height =591
+                    FontSize =10
+                    TabIndex =5
+                    ForeColor =0
+                    Name ="CmdImprimer"
+                    Caption ="Imprimer"
+                    StatusBarText ="Imprimer"
+                    PictureData = Begin
+                        0x2800000020000000200000000100180000000000000c00000000000000000000 ,
+                        0x0000000000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000007f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7fbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000000000000000 ,
+                        0x000000000000000000000000000000000000000000007f7f7f7f7f7f7f7f7fbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbf0000007f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f7f0000007f7f ,
+                        0x7f7f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf0000007f7f7f7f7f7f7f ,
+                        0x7f7fbfbfbfbfbfbfbfbfbf000000ffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffff7f7f7f7f7f7f0000 ,
+                        0x007f7f7f7f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000007f7f7f7f ,
+                        0x7f7f7f7f7fbfbfbf0000007f7f7f0000007f7f7fbfbfbfbfbfbf7f7f7f7f7f7f ,
+                        0x7f7f7fbfbfbfbfbfbf7f7f7f7f7f7f7f7f7fbfbfbfbfbfbfffffff7f7f7f7f7f ,
+                        0x7f0000000000000000000000000000000000000000000000007f7f7f0000007f ,
+                        0x7f7f7f7f7f7f7f7f000000ffffffbfbfbf0000007f7f7fbfbfbfbfbfbf7f7f7f ,
+                        0x7f7f7fbfbfbfbfbfbfbfbfbf7f7f7f7f7f7fbfbfbfbfbfbfbfbfbfffffff7f7f ,
+                        0x7f0000007f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f0000007f7f7f00 ,
+                        0x00007f7f7f7f7f7f000000ffffffbfbfbfbfbfbf000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f00000000 ,
+                        0x0000bfbfbfbfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfffffffffffffffffffbfbfbf7f7f7f7f7f7f7f7f7f00 ,
+                        0x0000bfbfbfbfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf000000000000000000bfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfffffffffffffffffffbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbf0000ff0000ff000000bfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbf000000ffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffffffffffffff7f7f7f7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbf000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfffffff7f7f7f7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000bfbfbfbfbfbfffffff7f7f7f7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f000000 ,
+                        0x000000ffffffffffffffffffffffff0000007f7f7fffffff7f7f7f0000000000 ,
+                        0x00ffffffffffffbfbfbf000000000000000000000000bfbfbfbfbfbfffffff7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000bfbfbfbfbfbf7f7f7f ,
+                        0x0000007f7f7fffffffffffffffffff7f7f7f000000ffffff0000000000007f7f ,
+                        0x7fffffffffffffffffff0000007f7f7fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf7f ,
+                        0x7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf000000000000000000 ,
+                        0x000000000000ffffffffffffffffffffffff0000007f7f7f000000000000ffff ,
+                        0xffffffffffffffffffff7f7f7f00000000000000000000000000000000000000 ,
+                        0x0000000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbf0000007f7f7fffffffffffffffffff7f7f7f0000000000007f7f7fffff ,
+                        0xffffffffffffffffffffffffff000000bfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbf000000ffffffffffffffffff7f7f7f000000000000ffffffffff ,
+                        0xffffffffffffffffffffffffff7f7f7f000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbf0000007f7f7fffffffffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffff000000bfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbf000000bfbfbfffffffffffffffffffffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffffbfbfbf000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbf0000000000000000000000000000000000000000000000 ,
+                        0x00000000000000000000000000000000000000000000bfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbf ,
+                        0xbfbfbfbfbfbfbfbf
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x000300010000000020000000400000006000000080000000a0000000c0000000 ,
+                        0xe00000000020000020200000402000006020000080200000a0200000c0200000 ,
+                        0xe02000000040000020400000404000006040000080400000a0400000c0400000 ,
+                        0xe04000000060000020600000406000006060000080600000a0600000c0600000 ,
+                        0xe06000000080000020800000408000006080000080800000a0800000c0800000 ,
+                        0xe080000000a0000020a0000040a0000060a0000080a00000a0a00000c0a00000 ,
+                        0xe0a0000000c0000020c0000040c0000060c0000080c00000a0c00000c0c00000 ,
+                        0xe0c0000000e0000020e0000040e0000060e0000080e00000a0e00000c0e00000 ,
+                        0xe0e000000000400020004000400040006000400080004000a0004000c0004000 ,
+                        0xe00040000020400020204000402040006020400080204000a0204000c0204000 ,
+                        0xe02040000040400020404000404040006040400080404000a0404000c0404000 ,
+                        0xe04040000060400020604000406040006060400080604000a0604000c0604000 ,
+                        0xe06040000080400020804000408040006080400080804000a0804000c0804000 ,
+                        0xe080400000a0400020a0400040a0400060a0400080a04000a0a04000c0a04000 ,
+                        0xe0a0400000c0400020c0400040c0400060c0400080c04000a0c04000c0c04000 ,
+                        0xe0c0400000e0400020e0400040e0400060e0400080e04000a0e04000c0e04000 ,
+                        0xe0e040000000800020008000400080006000800080008000a0008000c0008000 ,
+                        0xe00080000020800020208000402080006020800080208000a0208000c0208000 ,
+                        0xe02080000040800020408000404080006040800080408000a0408000c0408000 ,
+                        0xe04080000060800020608000406080006060800080608000a0608000c0608000 ,
+                        0xe06080000080800020808000408080006080800080808000a0808000c0808000 ,
+                        0xe080800000a0800020a0800040a0800060a0800080a08000a0a08000c0a08000 ,
+                        0xe0a0800000c0800020c0800040c0800060c0800080c08000a0c08000c0c08000 ,
+                        0xe0c0800000e0800020e0800040e0800060e0800080e08000a0e08000c0e08000 ,
+                        0xe0e080000000c0002000c0004000c0006000c0008000c000a000c000c000c000 ,
+                        0xe000c0000020c0002020c0004020c0006020c0008020c000a020c000c020c000 ,
+                        0xe020c0000040c0002040c0004040c0006040c0008040c000a040c000c040c000 ,
+                        0xe040c0000060c0002060c0004060c0006060c0008060c000a060c000c060c000 ,
+                        0xe060c0000080c0002080c0004080c0006080c0008080c000a080c000c080c000 ,
+                        0xe080c00000a0c00020a0c00040a0c00060a0c00080a0c000a0a0c000c0a0c000 ,
+                        0xe0a0c00000c0c00020c0c00040c0c00060c0c00080c0c000a0c0c000c0c0c000 ,
+                        0xe0c0c00000e0c00020e0c00040e0c00060e0c00080e0c000a0e0c000c0e0c000 ,
+                        0xe0e0c00000000000
+                    End
+                    ControlTipText ="Imprimer"
+                    Picture ="C:\\Temp\\ICONS\\COMPUTER\\HARDWARE\\PRINT4.ICO"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =10140
+                    Top =45
+                    Width =591
+                    Height =591
+                    FontSize =10
+                    TabIndex =6
+                    ForeColor =0
+                    Name ="CmdFermer"
+                    Caption ="Fermer Le Formulaire"
+                    StatusBarText ="Fermer Le Formulaire"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadadadadadadaddadadadadadadadaadad00adad00adaddadad00ad00adada ,
+                        0xadadad0000adadaddadadad00adadadaadadad0000adadaddadad00ad00adada ,
+                        0xadad00adad00adaddadadadadadadadaadadadadadadadaddadadadadadadada ,
+                        0xadadadadadadadad
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff000000c0c0c000ffff00000000ff00c0c0c00000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Fermer Le Formulaire"
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    TextFontFamily =2
+                    Left =1215
+                    Top =45
+                    Width =576
+                    Height =576
+                    FontSize =10
+                    TabIndex =7
+                    ForeColor =0
+                    Name ="CmdAfficheTous"
+                    Caption ="Affiche Tous"
+                    StatusBarText ="Affiche Tous"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000010000000100000000100040000000000800000000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff00c0c0c00000ffff00ff000000c0c0c000 ,
+                        0xffff0000ffffff00dadadadadadadadaadadadadadadadaddadadad000000000 ,
+                        0xadadada0fffffff0dadadad0fffffff0adadada0fffffff0dadadad0fffffff0 ,
+                        0xadadada0fffffff0dad000d0fffffff0ada060a0fffffff0dad080d000000000 ,
+                        0xada080adadadadadda08860adadadadaa0888860adadadad06ff88860adadada ,
+                        0x000000000dadadad
+                    End
+                    FontName ="System"
+                    ObjectPalette = Begin
+                        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+                        0x80808000c0c0c000ff000000c0c0c000ffff00000000ff00c0c0c00000ffff00 ,
+                        0xffffff0000000000
+                    End
+                    ControlTipText ="Affiche Tous"
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmFicheSocietesPersonnelsSocietes.cls"

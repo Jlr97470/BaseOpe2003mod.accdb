@@ -1,0 +1,83 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaPersonnelsSocietesOpe1"
+  },
+  "Items": {
+    "QueryType": 16,
+    "Columns": {
+      "PerSocOpeResValeur1": {
+        "ColumnWidth": 2190,
+        "AggregateType": -1
+      },
+      "PerSocOpeResValeur2": {
+        "ColumnWidth": 2190,
+        "AggregateType": -1
+      },
+      "PerSocOpeResValeur3": {
+        "ColumnWidth": 2190,
+        "AggregateType": -1
+      },
+      "PerSocOpeResValeur4": {
+        "ColumnWidth": 2190,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1171,
+        "bottom": 367
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1120,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESOPERATIONSTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESOPERATIONSTYPESID",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESOPERATIONSRESULTATS",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESOPERATIONS",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

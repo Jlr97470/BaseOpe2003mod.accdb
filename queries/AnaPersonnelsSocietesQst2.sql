@@ -1,0 +1,45 @@
+﻿TRANSFORM
+  First(PerSocQstResValeur) AS PerSocQstResValeurValeur
+SELECT
+  PerSocQstNum,
+  PerSocQstPerSocQstTypNum,
+  PerSocQstPerSocNum,
+  PerSocQstDateSaisie,
+  PerSocQstNotes
+FROM
+  (
+    (
+      TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES
+      INNER JOIN TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID ON TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID.PerSocQstTypIDPerSocQstTypNum
+    )
+    INNER JOIN TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS ON TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID.PerSocQstTypIDNum = TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.PerSocQstResPerSocQstTypIDNum
+  )
+  INNER JOIN TBLPERSONNELSSOCIETESQUESTIONNAIRES ON (
+    TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.PerSocQstResPerSocNum = TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum
+  )
+  AND (
+    TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocQstTypNum
+  )
+WHERE
+  TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = 2
+GROUP BY
+  PerSocQstNum,
+  PerSocQstPerSocQstTypNum,
+  PerSocQstPerSocNum,
+  PerSocQstDateSaisie,
+  PerSocQstNotes,
+  PerSocQstTypCode,
+  PerSocQstTypLibelle,
+  PerSocQstTypDateDebut,
+  PerSocQstTypDateFin,
+  PerSocQstTypNbResultat
+PIVOT
+  'PerSocQstResValeur' & [PerSocQstTypID] In (
+    'PerSocQstResValeur1', 'PerSocQstResValeur2',
+    'PerSocQstResValeur3', 'PerSocQstResValeur4',
+    'PerSocQstResValeur5', 'PerSocQstResValeur6',
+    'PerSocQstResValeur7', 'PerSocQstResValeur8',
+    'PerSocQstResValeur9', 'PerSocQstResValeur10',
+    'PerSocQstResValeur11', 'PerSocQstResValeur12',
+    'PerSocQstResValeur13'
+  );

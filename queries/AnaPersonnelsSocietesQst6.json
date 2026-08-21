@@ -1,0 +1,123 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaPersonnelsSocietesQst6"
+  },
+  "Items": {
+    "QueryType": 16,
+    "Columns": {
+      "PerSocQstResValeur1": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur10": {
+        "ColumnWidth": 2250,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur2": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur3": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur4": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur5": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur6": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur7": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur8": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "PerSocQstResValeur9": {
+        "ColumnWidth": 2145,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNotes": {
+        "ColumnWidth": 3600,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNum": {
+        "ColumnWidth": 3765,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum": {
+        "ColumnWidth": 5415,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocQstTypNum": {
+        "ColumnWidth": 7155,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1171,
+        "bottom": 649
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1120,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 559,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRES",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 113,
+          "ScrollTop": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelSocietesVilles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Types, Groupes, Reseaux, Villes\r\nUtiliser Par:\r\n- FrmLstSocietes\r\n- SFrmFichePersonnelsPersonnelsSocietes"
+      }
+    },
+    "Columns": {
+      "SocVilCodePostal": {
+        "Caption": "Code Postal",
+        "ColumnWidth": 1245,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Ville",
+        "ColumnWidth": 2130,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdr": {
+        "Caption": "Adresse",
+        "ColumnWidth": 4335,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocCode": {
+        "Caption": "Code",
+        "ColumnWidth": 885,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocEnseigne": {
+        "Caption": "Enseigne",
+        "ColumnWidth": 3150,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "ColumnWidth": 2955,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESRESEAUX.SocResLibelle": {
+        "Caption": "Reseau",
+        "ColumnWidth": 1710,
+        "AggregateType": -1
+      },
+      "TBLSOCIETESTYPES.SocTypLibelle": {
+        "ColumnWidth": 2490,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 40,
+        "top": 62,
+        "right": 1171,
+        "bottom": 634
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1124,
+        "bottom": 411
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLSOCIETESGROUPES",
+          "Alias": "",
+          "Left": 7,
+          "Top": 92,
+          "Right": 162,
+          "Bottom": 184,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 454,
+          "Top": 6,
+          "Right": 627,
+          "Bottom": 98,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESTYPES",
+          "Alias": "",
+          "Left": 7,
+          "Top": 6,
+          "Right": 161,
+          "Bottom": 83,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETESRESEAUX",
+          "Alias": "",
+          "Left": 6,
+          "Top": 187,
+          "Right": 161,
+          "Bottom": 264,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 424,
+          "Bottom": 368,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Societes, Types, Groupes, Reseaux, Villes\r\nUtiliser Par:\r\n- FrmLstSocietes\r\n- SFrmFichePersonnelsPersonnelsSocietes"
+      }
+    }
+  }
+}

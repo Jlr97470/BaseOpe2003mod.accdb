@@ -1,0 +1,160 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesPersonnelsSocietesTypesActif"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Personnels Societes, Personnels, Societes, Types, Actif\r\nUtiliser Par:\r\n- FrmSaisiesOperationsTypes\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    },
+    "Columns": {
+      "SocVilCodePostal": {
+        "Caption": "Code Postal",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "SocVilNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELS.PerCivCode": {
+        "Caption": "Civilitée Code",
+        "ColumnWidth": 1290,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELS.PerNom": {
+        "Caption": "Nom",
+        "ColumnWidth": 825,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELS.PerNum": {
+        "Caption": "Numero",
+        "ColumnWidth": 810,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELS.PerPrenom": {
+        "Caption": "Prenom",
+        "ColumnWidth": 1155,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETES.PerSocActif": {
+        "Caption": "Profils Actif",
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETES.PerSocAdherent": {
+        "Caption": "Profils Adherent",
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETES.PerSocPerSocTypCode": {
+        "Caption": "Fonctions Code",
+        "ColumnWidth": 1440,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESTYPES.PerSocTypLibelle": {
+        "Caption": "Fonctions Libelle",
+        "ColumnWidth": 1560,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocAdr": {
+        "Caption": "Adresse",
+        "ColumnWidth": 5430,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocCode": {
+        "Caption": "Code",
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocEnseigne": {
+        "Caption": "Enseigne",
+        "ColumnWidth": 2415,
+        "AggregateType": -1
+      },
+      "TBLSOCIETES.SocRaison": {
+        "Caption": "Raison",
+        "ColumnWidth": 2070,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 9,
+        "top": 15,
+        "right": 1161,
+        "bottom": 320
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1145,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLVILLES_1",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 90,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLSOCIETES",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 105,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELS",
+          "Alias": "",
+          "Left": 306,
+          "Top": 6,
+          "Right": 402,
+          "Bottom": 105,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESTYPES",
+          "Alias": "",
+          "Left": 440,
+          "Top": 6,
+          "Right": 536,
+          "Bottom": 90,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETES",
+          "Alias": "",
+          "Left": 574,
+          "Top": 6,
+          "Right": 670,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Personnels Societes, Personnels, Societes, Types, Actif\r\nUtiliser Par:\r\n- FrmSaisiesOperationsTypes\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    }
+  }
+}

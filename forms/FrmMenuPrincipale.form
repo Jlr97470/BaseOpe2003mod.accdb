@@ -1,0 +1,478 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AllowEditing = NotDefault
+    AllowFilters = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =2
+    PictureSizeMode =1
+    Width =8505
+    ItemSuffix =65
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    HelpContextId =3
+    OnUnload ="[Event Procedure]"
+    Toolbar ="Outils Channel Precision 2003"
+    RecSrcDt = Begin
+        0x8f9095372d9fe140
+    End
+    Caption ="Menu Principale  - 2003"
+    OnOpen ="[Event Procedure]"
+    MenuBar ="Menu Channel Precision 2003"
+    DatasheetFontName ="Helv"
+    OnActivate ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    ShowPageMargins =0
+    AllowLayoutView =0
+    PictureSizeMode =1
+    Begin
+        Begin Label
+            TextAlign =3
+            Width =15
+            Height =15
+            FontSize =18
+            BackColor =12632256
+            ForeColor =16711680
+        End
+        Begin Rectangle
+            OldBorderStyle =0
+            BorderLineStyle =0
+        End
+        Begin Line
+            OldBorderStyle =0
+            BorderLineStyle =0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin CheckBox
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin OptionGroup
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+        End
+        Begin BoundObjectFrame
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            OldBorderStyle =0
+            BorderLineStyle =0
+        End
+        Begin TextBox
+            AutoLabel = NotDefault
+            OldBorderStyle =0
+            BorderWidth =1
+            LabelAlign =3
+            BorderLineStyle =0
+            Width =3742
+            Height =237
+            LabelX =-135
+            LabelY =-15
+            FontWeight =700
+            BackColor =12632256
+            ForeColor =1
+            FontName ="Helv"
+        End
+        Begin ListBox
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin ComboBox
+            AutoLabel = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            BorderWidth =1
+            LabelAlign =3
+            BorderLineStyle =0
+            LabelX =-165
+            LabelY =-15
+            BackColor =12632256
+        End
+        Begin Subform
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin Chart
+            Width =4536
+            Height =2835
+        End
+        Begin UnboundObjectFrame
+            Width =4536
+            Height =2835
+        End
+        Begin PageBreak
+            Width =283
+        End
+        Begin CustomControl
+            SpecialEffect =2
+            Width =4536
+            Height =2835
+        End
+        Begin PaletteButton
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+        End
+        Begin ToggleButton
+            AutoLabel = NotDefault
+            AddColon = NotDefault
+            BorderLineStyle =0
+        End
+        Begin Tab
+            Width =5103
+            Height =3402
+            FontSize =11
+            FontName ="Calibri Light"
+            ThemeFontIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BackColor =-2147483633
+            BorderLineStyle =0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+        End
+        Begin Page
+            Width =1701
+            Height =1701
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =6519
+            Name ="Détail"
+            Begin
+                Begin CommandButton
+                    Default = NotDefault
+                    OverlapFlags =85
+                    AccessKey =83
+                    Left =3685
+                    Top =5811
+                    Width =1134
+                    Height =627
+                    TabIndex =1
+                    Name ="CmdValider"
+                    Caption ="&Sélectionner"
+                    StatusBarText ="Valider"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000020000000200000000100080000000000000400000000000000000000 ,
+                        0x0000000000000000000000000000bf0000bf000000bfbf00bf000000bf00bf00 ,
+                        0xbfbf0000c0c0c000c0dcc000f0c8a40000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0xf0fbff00a4a0a000808080000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070700070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070000070707070707070707 ,
+                        0x0707070707070707070707070707070707070707000000000707070707070707 ,
+                        0x0707070707070707070707070707070707070700000000000707070707070707 ,
+                        0x0707070707070707070707070707070707070000000000000707070707070707 ,
+                        0x0707070707070707070707070707070707000000000000000007070707070707 ,
+                        0x0707070707070707070707070707070700000000070700000007070707070707 ,
+                        0x0707070707070707070707070707070000000007070700000000070707070707 ,
+                        0x0707070707070707070707070707000000000707070707000000070707070707 ,
+                        0x0707070707070707070707070700000000070707070707000000000707070707 ,
+                        0x0707070707070707070707070700000007070707070707070000000707070707 ,
+                        0x0707070707070707070707070707070707070707070707070700000007070707 ,
+                        0x0707070707070707070707070707070707070707070707070700000007070707 ,
+                        0x0707070707070707070707070707070707070707070707070707000000070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070000000707 ,
+                        0x0707070707070707070707070707070707070707070707070707070700000707 ,
+                        0x0707070707070707070707070707070707070707070707070707070700000007 ,
+                        0x0707070707070707070707070707070707070707070707070707070707000007 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070000 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070700 ,
+                        0x0007070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0007070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0700070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707000707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070007070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070700070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707000707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x0707070707070707070707070707070707070707070707070707070707070707 ,
+                        0x07070707070707071e384f8b46d026034720509a7476271eff36e0839a520e0f
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ShortcutMenuBar ="Valider"
+                    ControlTipText ="Valider"
+
+                End
+                Begin CustomControl
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    SizeMode =1
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    Width =570
+                    Height =570
+                    AutoActivate =1
+                    TabIndex =3
+                    Name ="ImgLstMenu"
+                    OnUpdated ="[Event Procedure]"
+                    OLEClass ="ImageListCtrl"
+                    Class ="COMCTL.ImageListCtrl.1"
+
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    AccessKey =81
+                    Left =6803
+                    Top =5811
+                    Width =1134
+                    Height =627
+                    TabIndex =2
+                    Name ="CmdQuitter"
+                    Caption ="&Quitter"
+                    StatusBarText ="Fermer le menu principal"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x2800000019000000180000000100040000000000800100000000000000000000 ,
+                        0x0000000000000000000000000000800000800000008080008000000080008000 ,
+                        0x8080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00 ,
+                        0xffff0000ffffff00888888888888888888888888888888888888888880888888 ,
+                        0x8888888888888888888888880088888888888888888888888888888030888888 ,
+                        0x8888888888888888888888033088888888888888888888888888803330888888 ,
+                        0x8888888888888888888803333088888888888888888888888000333330000000 ,
+                        0x00000888888888888880333330ffff0888888888888888888880333330ffff08 ,
+                        0x88888888888888888880333300ffff0888888888888888888880333330ffff08 ,
+                        0x88888488888888888880333330ffff0888884488888888888880333330ffff08 ,
+                        0x88844488888888888880333330ffff0888444444488888888880333330ffff08 ,
+                        0x84444444488888888880333330ffff0884444444488888888880333330ffff08 ,
+                        0x8844444448888888888033330fffff08888444888888800088803330ffffff08 ,
+                        0x88884488888880ff8880330fffffff0888888488888880ff888030ffffffff08 ,
+                        0x888888888888800088800fffffffff0888888888888888888880000000000008 ,
+                        0x8888888888888888000000000000000000000000000000000000000000000000
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ShortcutMenuBar ="Quitter"
+                    ControlTipText ="Quitter"
+
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    OverlapFlags =247
+                    Width =540
+                    Height =420
+                    TabIndex =4
+                    Name ="TxtGroupeNumVal"
+                    DefaultValue ="1"
+
+                End
+                Begin CustomControl
+                    Visible = NotDefault
+                    Enabled = NotDefault
+                    TabStop = NotDefault
+                    SizeMode =1
+                    SpecialEffect =0
+                    OverlapFlags =85
+                    Left =566
+                    Width =480
+                    Height =480
+                    AutoActivate =1
+                    TabIndex =5
+                    Name ="CdgBoite"
+                    OLEClass ="CommonDialog"
+                    Class ="MSComDlg.CommonDialog.1"
+
+                End
+                Begin Tab
+                    OverlapFlags =93
+                    Left =165
+                    Top =2595
+                    Width =8175
+                    Height =2970
+                    TabIndex =6
+                    Name ="TbsMenu"
+                    OnChange ="[Event Procedure]"
+
+                    LayoutCachedLeft =165
+                    LayoutCachedTop =2595
+                    LayoutCachedWidth =8340
+                    LayoutCachedHeight =5565
+                    Begin
+                        Begin Page
+                            OverlapFlags =87
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Saisie"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Listes"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Fiches"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Recherche"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Mialing"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Fusion"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                        Begin Page
+                            OverlapFlags =215
+                            Left =300
+                            Top =3075
+                            Width =7905
+                            Height =2355
+                            Name ="Gestion"
+                            LayoutCachedLeft =300
+                            LayoutCachedTop =3075
+                            LayoutCachedWidth =8205
+                            LayoutCachedHeight =5430
+                        End
+                    End
+                End
+                Begin ListBox
+                    OverlapFlags =215
+                    ColumnCount =4
+                    Left =165
+                    Top =3120
+                    Width =8167
+                    Height =2449
+                    BoundColumn =-1
+                    Name ="LstMenu"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT TBLMENU.MenuGroupeNum, TBLMENU.MenuNum, TBLMENU.MenuLibelle, TBLMENU.Menu"
+                        "MacroToRun FROM TBLMENU WHERE (((TBLMENU.MenuGroupeNum)=Formulaires!FrmMenuPrinc"
+                        "ipale!TxtGroupeNumVal)) ORDER BY TBLMENU.MenuGroupeNum, TBLMENU.MenuNum; "
+                    ColumnWidths ="0;0;2268;0"
+                    OnDblClick ="[Event Procedure]"
+                    FontName ="Arial"
+
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "FrmMenuPrincipale.cls"

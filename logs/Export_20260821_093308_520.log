@@ -1,0 +1,320 @@
+﻿-------------------------------------
+Beginning Export of Source Files
+BaseOpe2003mod.accdb
+VCS Version 5.0.1
+Export Format: 4.1.2
+Full Path: D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\CHANEL 2003\BaseOpe2003mod.accdb
+Export Folder: D:\MES_SOURCES\GITHUB\BaseOpe2003mod.accdb\
+21/08/2026 09:33:08
+Performing Full Export
+Updated VCS (4.1.2 -> 5.0.1)
+Note: Export format 5.0.0 is available (currently using 4.1.2). Update via Options > Export when ready.
+Caching 1 back-end database connection(s)
+  D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\CHANEL 2003\BASEOPE2003FICH.ACCDB
+-------------------------------------
+Scanning source files...
+No db connections found in this database.
+No vbe forms found in this database.
+No saved specs found in this database.
+No shared images found in this database.
+No imex specs found in this database.
+No reports found in this database.
+No table data found in this database.
+No table data macros found in this database.
+-------------------------------------
+Exporting project...            BaseOpe2003mod.accdb
+[1]
+-------------------------------------
+Exporting vb project...         CHANEL PRECISION 2003
+[1]
+-------------------------------------
+Exporting vbe references...     Office
+[9]
+-------------------------------------
+Exporting proj properties...    Current Project Properties (Access)
+[1]
+-------------------------------------
+Exporting modules...            ModGestionMessageries
+  ModGestionOperationsQuestionnaires
+  ModGestionImportsExports
+  ClsSendMailStatus
+  ModGestionReferences
+  ModGestionFormulaires
+  ModGestionBases
+  ModGestionFichiers
+  ModGestionTraitements
+  ModGestionFonctions
+[10]
+-------------------------------------
+Exporting commandbars...        Menu Channel Precision 2003
+  Outils Channel Precision 2003
+[2]
+-------------------------------------
+Exporting themes...             Thème Office
+[1]
+-------------------------------------
+Exporting db properties...      Database Properties (DAO)
+[48]
+-------------------------------------
+Exporting tables...             TBLCIVILITES
+  TBLDEPARTEMENTS
+  TBLFICHIERS
+    Sanitized in 0,001 seconds.
+  TBLFICHIERS (SQL)
+  TBLMACHINES
+  TBLMACHINESMESSAGES
+  TBLMENU
+  TBLPARAMETRES
+    Sanitized in 0,001 seconds.
+  TBLPARAMETRES (SQL)
+  TBLPARAMETRESGENERALS
+  TBLPERSONNELS
+  TBLPERSONNELSSOCIETES
+  TBLPERSONNELSSOCIETESACTIFS
+  TBLPERSONNELSSOCIETESADHERENTS
+  TBLPERSONNELSSOCIETESANNIVERSAIRES
+  TBLPERSONNELSSOCIETESCODES
+  TBLPERSONNELSSOCIETESOPERATIONS
+  TBLPERSONNELSSOCIETESOPERATIONSRESULTATS
+  TBLPERSONNELSSOCIETESOPERATIONSTYPES
+  TBLPERSONNELSSOCIETESOPERATIONSTYPESID
+  TBLPERSONNELSSOCIETESQUESTIONNAIRES
+  TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS
+  TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES
+  TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID
+  TBLPERSONNELSSOCIETESTYPES
+  TBLSOCIETES
+  TBLSOCIETESGROUPES
+  TBLSOCIETESRESEAUX
+  TBLSOCIETESSECTEURS
+  TBLSOCIETESSECTEURSCODES
+  TBLSOCIETESSECTEURSREGIONS
+  TBLSOCIETESTYPES
+  TBLTYPESIDTYPES
+  TBLVILLES
+[32]
+-------------------------------------
+Exporting queries...            AnaPersonnelsSocietesOpe1
+    Sanitized in 0,001 seconds.
+  AnaPersonnelsSocietesOpe1 (SQL)
+  AnaPersonnelsSocietesQst2
+    Sanitized in 0,000 seconds.
+  AnaPersonnelsSocietesQst2 (SQL)
+  AnaPersonnelsSocietesQst3
+    Sanitized in 0,001 seconds.
+  AnaPersonnelsSocietesQst3 (SQL)
+  AnaPersonnelsSocietesQst6
+    Sanitized in 0,001 seconds.
+  AnaPersonnelsSocietesQst6 (SQL)
+  SelFichiersDetailler
+    Sanitized in 0,001 seconds.
+  SelFichiersDetailler (SQL)
+  SelParametresDetailler
+    Sanitized in 0,001 seconds.
+  SelParametresDetailler (SQL)
+  SelParametresGeneralsDetailler
+    Sanitized in 0,001 seconds.
+  SelParametresGeneralsDetailler (SQL)
+  SelPersonnelsSocietesAnniversaires
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesAnniversaires (SQL)
+  SelPersonnelsSocietesOperationsTypes
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesOperationsTypes (SQL)
+  SelPersonnelsSocietesOperationsTypesID
+    Sanitized in 0,000 seconds.
+  SelPersonnelsSocietesOperationsTypesID (SQL)
+  SelPersonnelsSocietesOperationsTypesResultats
+    Sanitized in 0,000 seconds.
+  SelPersonnelsSocietesOperationsTypesResultats (SQL)
+  SelPersonnelsSocietesPersonnelsSocietesTypesActif
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesPersonnelsSocietesTypesActif (SQL)
+  SelPersonnelsSocietesQuestionnairesTypes
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesQuestionnairesTypes (SQL)
+  SelPersonnelsSocietesQuestionnairesTypesID
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesQuestionnairesTypesID (SQL)
+  SelPersonnelsSocietesQuestionnairesTypesResultats
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesQuestionnairesTypesResultats (SQL)
+  SelPersonnelsSocietesTypes
+    Sanitized in 0,001 seconds.
+  SelPersonnelsSocietesTypes (SQL)
+  SelPersonnelsVilles
+    Sanitized in 0,001 seconds.
+  SelPersonnelsVilles (SQL)
+  SelSocietesVilles
+    Sanitized in 0,001 seconds.
+  SelSocietesVilles (SQL)
+  SelVillesDepartementsCodes
+    Sanitized in 0,001 seconds.
+  SelVillesDepartementsCodes (SQL)
+[19]
+-------------------------------------
+Exporting forms...              FrmSaisiesQuestionnairesTypes
+    Sanitized in 0,010 seconds.
+  FrmFicheQuestionnairesTypes
+    Sanitized in 0,007 seconds.
+  FrmExtraction
+    Sanitized in 0,006 seconds.
+  SFrmFicheSocietesPersonnelsSocietes
+    Sanitized in 0,006 seconds.
+  SFrmFichePersonnelsOperations
+    Sanitized in 0,003 seconds.
+  FrmLstSocietes
+    Sanitized in 0,006 seconds.
+  FrmLstMachines
+    Sanitized in 0,002 seconds.
+  FrmGestionTraitements
+    Sanitized in 0,002 seconds.
+  SFrmFichePersonnelsQuestionnaires
+    Sanitized in 0,003 seconds.
+  FrmFicheSocietes
+    Sanitized in 0,014 seconds.
+  FrmSaisiesOperationsTypes
+    Sanitized in 0,010 seconds.
+  FrmFicheOperationsTypes
+    Sanitized in 0,007 seconds.
+  FrmFichePersonnels
+    Sanitized in 0,028 seconds.
+  FrmAbout
+    Sanitized in 0,003 seconds.
+  FrmGestionFichiers
+    Sanitized in 0,013 seconds.
+  FrmGestionMessages
+    Sanitized in 0,009 seconds.
+  FrmGestionParametres
+    Sanitized in 0,003 seconds.
+  FrmLstVilles
+    Sanitized in 0,003 seconds.
+  FrmLstCivilites
+    Sanitized in 0,002 seconds.
+  FrmGestionParametresGenerals
+    Sanitized in 0,003 seconds.
+  FrmNotes
+    Sanitized in 0,001 seconds.
+  FrmLstPersonnels
+    Sanitized in 0,006 seconds.
+  SFrmSaisiesQuestionnairesTypesQuestionnairesResultats
+    Sanitized in 0,003 seconds.
+  SFrmSaisiesOperationsTypesOperationsResultats
+    Sanitized in 0,003 seconds.
+  FrmLstSocietesTypes
+    Sanitized in 0,005 seconds.
+  FrmRecherche
+    Sanitized in 0,004 seconds.
+  FrmMenuPrincipale
+    Sanitized in 0,004 seconds.
+  SFrmFicheQuestionnairesTypesQuestionnairesTypesID
+    Sanitized in 0,006 seconds.
+  SFrmFicheOperationsTypesOperationsTypesID
+    Sanitized in 0,006 seconds.
+  SFrmFichePersonnelsPersonnelsSocietes
+    Sanitized in 0,009 seconds.
+  FrmFusion
+    Sanitized in 0,009 seconds.
+  FrmExtractionMulti
+    Sanitized in 0,011 seconds.
+[32]
+-------------------------------------
+Exporting macros...             AutoKeys
+    Sanitized in 0,000 seconds.
+  AutoExec
+    Sanitized in 0,000 seconds.
+  MacMenuPrincipale
+    Sanitized in 0,001 seconds.
+[3]
+-------------------------------------
+Exporting relations...          MSysAccessStorageSTGREL
+[1]
+-------------------------------------
+Exporting doc properties...     Database Documents
+[24]
+-------------------------------------
+Exporting nav pane groups...    Groups
+[2]
+-------------------------------------
+Exporting hidden attributes...  Database hidden attributes
+[9]
+-------------------------------------
+Done. (2,93 seconds)
+--------------------------------------------------
+                PERFORMANCE REPORTS
+--------------------------------------------------
+Category                      Count     Seconds
+--------------------------------------------------
+Forms                         32        1,01
+CommandBars                   2         0,63
+Queries                       19        0,47
+Tables                        32        0,24
+Modules                       10        0,09
+Doc Properties                24        0,09
+DB Properties                 48        0,06
+Macros                        3         0,05
+Nav Pane Groups               2         0,04
+Relations                     1         0,03
+Hidden Attributes             9         0,03
+VBE References                9         0,02
+Themes                        1         0,02
+Project                       1         0,02
+Proj Properties               1         0,02
+VB Project                    1         0,02
+DB Connections                0         0,00
+Shared Images                 0         0,00
+Table Data Macros             0         0,00
+IMEX Specs                    0         0,00
+Table Data                    0         0,00
+VBE Forms                     0         0,00
+Saved Specs                   0         0,00
+Reports                       0         0,00
+--------------------------------------------------
+TOTALS:                       195       2,85
+--------------------------------------------------
+
+--------------------------------------------------
+Operations                    Count     Seconds
+--------------------------------------------------
+App.SaveAsText()              54        0,45
+Console Updates               21        0,35
+Convert to JSON               116       0,26
+Save CommandBar Images        2         0,24
+Sanitize File                 54        0,22
+Format SQL                    19        0,09
+Write File                    190       0,07
+Scan DB Objects               1         0,06
+Read File DevMode             32        0,04
+Read File Bytes               86        0,04
+Read File                     66        0,03
+Verify Path                   249       0,03
+Export VBE Module             10        0,02
+Get File Property Hash        108       0,02
+Compute SHA256                321       0,02
+Get @Folder Annotation        42        0,02
+Sanitize VBA Code             41        0,02
+Get VBA Hash                  42        0,02
+Delete File                   67        0,01
+Increment Progress            2         0,01
+Get Modified Date             284       0,01
+App.ExportXML()               2         0,01
+Check for linked table        32        0,01
+Save Query SQL                19        0,00
+Cache Back-End Connections    1         0,00
+Sanitize XML                  2         0,00
+Scan Folder Contents (API)    2         0,00
+Format XML                    2         0,00
+Save Table SQL                2         0,00
+Quick Count Objects           1         0,00
+modFileAccess.GetUncPath      62        0,00
+Close Open Objects            1         0,00
+Quick Count Files             1         0,00
+Export Theme                  1         0,00
+File Pattern Exists (API)     10        0,00
+Clear Files by Ext            6         0,00
+--------------------------------------------------
+Other Operations                        0,88
+TOTAL RUNTIME:                          2,93
+--------------------------------------------------
+
+

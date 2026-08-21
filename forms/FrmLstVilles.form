@@ -1,0 +1,362 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    PictureTiling = NotDefault
+    ScrollBars =2
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =5
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =7941
+    DatasheetFontHeight =10
+    ItemSuffix =21
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    PaintPalette = Begin
+        0x000301000000000000000000
+    End
+    RecSrcDt = Begin
+        0xc66c53a0f78de240
+    End
+    RecordSource ="SELECT DISTINCTROW SelVillesDepartementsCodes.* FROM SelVillesDepartementsCodes;"
+        " "
+    Caption ="Liste Des Villes - 2003"
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    PictureSizeMode =1
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            SpecialEffect =1
+            FontWeight =700
+            BackColor =12632256
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderWidth =3
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =12632256
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12632256
+            BackColor =12632256
+        End
+        Begin TextBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ListBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12632256
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =2730
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =93
+                    TextAlign =1
+                    Top =2415
+                    Width =1125
+                    Height =300
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiVilCodePostal"
+                    Caption ="Code Postal"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Code Postal"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =1
+                    Left =1125
+                    Top =2415
+                    Width =2835
+                    Height =300
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiVilNom"
+                    Caption ="Nom"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Nom"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =93
+                    TextAlign =1
+                    Left =6225
+                    Top =2415
+                    Width =1680
+                    Height =300
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiVilDepPays"
+                    Caption ="Pays"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Pays"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =2835
+                    Top =2010
+                    Width =2265
+                    Height =300
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiVille"
+                    Caption ="Liste Des Villes"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Liste Des Villes"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =87
+                    TextAlign =1
+                    Left =3960
+                    Top =2415
+                    Width =2265
+                    Height =300
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiVilDepNom"
+                    Caption ="Departements"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Departements"
+                End
+            End
+        End
+        Begin Section
+            Height =420
+            Name ="Détail"
+            Begin
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    Visible = NotDefault
+                    OverlapFlags =93
+                    ColumnCount =5
+                    Left =15
+                    Top =90
+                    Width =1128
+                    Height =285
+                    ColumnWidth =1701
+                    BackColor =16777215
+                    Name ="CmbVilNum"
+                    ControlSource ="VilNum"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT SelVillesDepartementsCodes.VilNum, SelVillesDepartementsCodes.VilCodePost"
+                        "al, SelVillesDepartementsCodes.VilNom, TBLDEPARTEMENTS.DepNom, TBLDEPARTEMENTS.D"
+                        "epPays FROM SelVillesDepartementsCodes LEFT JOIN TBLDEPARTEMENTS ON SelVillesDep"
+                        "artementsCodes.VilDepCode=TBLDEPARTEMENTS.DepCode ORDER BY SelVillesDepartements"
+                        "Codes.VilCodePostal; "
+                    StatusBarText ="Ville Numero"
+                    ControlTipText ="Ville Numero"
+
+                End
+                Begin TextBox
+                    OverlapFlags =255
+                    BackStyle =0
+                    Top =75
+                    Width =1143
+                    Height =285
+                    ColumnWidth =1185
+                    TabIndex =1
+                    BackColor =16777215
+                    Name ="TxtVilCodePostal"
+                    ControlSource ="VilCodePostal"
+                    StatusBarText ="Ville Code Postal"
+                    InputMask ="00000;;_"
+                    ControlTipText ="Ville Code Postal"
+
+                End
+                Begin TextBox
+                    OverlapFlags =127
+                    BackStyle =0
+                    Left =1140
+                    Top =75
+                    Width =2838
+                    Height =285
+                    ColumnWidth =2310
+                    TabIndex =2
+                    BackColor =16777215
+                    Name ="TxtVilNom"
+                    ControlSource ="VilNom"
+                    StatusBarText ="Ville Nom"
+                    OnKeyPress ="[Event Procedure]"
+                    ControlTipText ="Ville Nom"
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =93
+                    BackStyle =0
+                    Left =6240
+                    Top =75
+                    Height =285
+                    ColumnWidth =2310
+                    TabIndex =3
+                    BackColor =16777215
+                    Name ="TxtVilDepPays"
+                    ControlSource ="=CmbVilNum.Column(4)"
+                    StatusBarText ="Ville Pays"
+                    BeforeUpdate ="[Event Procedure]"
+                    ControlTipText ="Ville Pays"
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =119
+                    BackStyle =0
+                    Left =3975
+                    Top =75
+                    Width =2271
+                    Height =285
+                    TabIndex =4
+                    BackColor =16777215
+                    Name ="TxtVilDepNom"
+                    ControlSource ="=CmbVilNum.Column(3)"
+                    StatusBarText ="Ville Departements"
+                    ControlTipText ="Ville Departements"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =12632256
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "FrmLstVilles.cls"

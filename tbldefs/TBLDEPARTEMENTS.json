@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLDEPARTEMENTS",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLDEPARTEMENTS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[DepCode]"
+  }
+}

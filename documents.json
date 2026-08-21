@@ -1,0 +1,38 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Databases": {
+      "SummaryInfo": {
+        "Author": {
+          "Type": 10,
+          "Value": "Jean-Laurent Royer"
+        },
+        "Company": {
+          "Type": 10,
+          "Value": "CONNECT FACTORY"
+        },
+        "Manager": {
+          "Type": 10,
+          "Value": "Helfter Thierry"
+        },
+        "Subject": {
+          "Type": 10,
+          "Value": "Challenge Chanel Precision 2003"
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "CHANEL 2003 (FRONTALE)"
+        }
+      },
+      "UserDefined": {
+        "ReplicateProject": {
+          "Type": 1,
+          "Value": true
+        }
+      }
+    }
+  }
+}

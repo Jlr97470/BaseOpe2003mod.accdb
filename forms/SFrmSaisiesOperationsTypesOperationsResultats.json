@@ -1,0 +1,29 @@
+﻿{
+  "Info": {
+    "Class": "clsDbForm",
+    "Description": "SFrmSaisiesOperationsTypesOperationsResultats Print Settings"
+  },
+  "Items": {
+    "Printer": {
+      "Orientation": "Portrait",
+      "PaperSize": "A4"
+    },
+    "Margins": {
+      "LeftMargin": 1.0014,
+      "TopMargin": 1.0007,
+      "RightMargin": 1.0007,
+      "BotMargin": 1.0007,
+      "DataOnly": false,
+      "Width": 5,
+      "Height": 3,
+      "DefaultSize": true,
+      "Columns": 1,
+      "ColumnSpacing": 0.25,
+      "RowSpacing": 0,
+      "ItemLayout": "Horizontal Columns",
+      "FastPrint": 1,
+      "Datasheet": 1
+    },
+    "Hidden": true
+  }
+}

@@ -1,0 +1,85 @@
+﻿Operation =1
+Option =8
+Begin InputTables
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+End
+Begin OutputColumns
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypCode"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypLibelle"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateDebut"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateFin"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNbResultat"
+End
+Begin OrderBy
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypCode"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="0"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbText "Description" ="Selection Des Questionnaires Types Des Personnels Par Societes\015\012Utiliser P"
+    "ar:\015\012- FrmSaisiesQuestionnairesTypes"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+Begin
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypCode"
+        dbInteger "ColumnWidth" ="1140"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Code"
+    End
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypLibelle"
+        dbInteger "ColumnWidth" ="1875"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Libelle"
+    End
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateDebut"
+        dbInteger "ColumnWidth" ="1590"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Date Debut"
+    End
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateFin"
+        dbInteger "ColumnWidth" ="1350"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Date Fin"
+    End
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNbResultat"
+        dbInteger "ColumnWidth" ="1635"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Nb Resultats"
+    End
+    Begin
+        dbText "Name" ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum"
+        dbInteger "ColumnWidth" ="4455"
+        dbBoolean "ColumnHidden" ="0"
+    End
+End
+Begin
+    State =0
+    Left =-92
+    Top =109
+    Right =1072
+    Bottom =414
+    Left =-1
+    Top =-1
+    Right =1157
+    Bottom =144
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =38
+        Top =6
+        Right =196
+        Bottom =105
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+        Name =""
+    End
+End

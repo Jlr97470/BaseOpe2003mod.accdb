@@ -1,0 +1,272 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    PictureTiling = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =5
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =6810
+    DatasheetFontHeight =10
+    ItemSuffix =6
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    PaintPalette = Begin
+        0x000301000000000000000000
+    End
+    Toolbar ="Outils Channel Precision 2003"
+    RecSrcDt = Begin
+        0xfd5708aef78de240
+    End
+    RecordSource ="SELECT TBLCIVILITES.* FROM TBLCIVILITES; "
+    Caption ="Listes Des Civilites - 2003"
+    BeforeUpdate ="[Event Procedure]"
+    MenuBar ="Menu Channel Precision 2003"
+    DatasheetFontName ="Arial"
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    PictureSizeMode =1
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            SpecialEffect =1
+            FontWeight =700
+            BackColor =12632256
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderWidth =3
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =12632256
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12632256
+            BackColor =12632256
+        End
+        Begin TextBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ListBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12632256
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =2505
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =93
+                    TextAlign =2
+                    Top =2190
+                    Width =2250
+                    Height =285
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiCivCode"
+                    Caption ="Code"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Code"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =2265
+                    Top =2190
+                    Width =4530
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiCivLibelle"
+                    Caption ="Libelle"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Libelle"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =1695
+                    Top =1740
+                    Width =3405
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiCivilite"
+                    Caption ="Listes Des Civilites"
+                    Tag ="DetachedLabel"
+                    ControlTipText ="Listes Des Civilites"
+                End
+            End
+        End
+        Begin Section
+            Height =285
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    BackStyle =0
+                    Left =15
+                    Top =15
+                    Width =2250
+                    Height =270
+                    ColumnWidth =1185
+                    BackColor =16777215
+                    BorderColor =0
+                    Name ="TxtCivCode"
+                    ControlSource ="CivCode"
+                    StatusBarText ="Civilité Code"
+                    ControlTipText ="Civilité Code"
+
+                End
+                Begin TextBox
+                    SpecialEffect =0
+                    OverlapFlags =87
+                    BackStyle =0
+                    Left =2265
+                    Top =15
+                    Width =4530
+                    Height =270
+                    ColumnWidth =1560
+                    TabIndex =1
+                    BackColor =16777215
+                    BorderColor =0
+                    Name ="TxtCivLibelle"
+                    ControlSource ="CivLibelle"
+                    StatusBarText ="Civilité Libelle"
+                    ControlTipText ="Civilité Libelle"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =12632256
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "FrmLstCivilites.cls"

@@ -1,0 +1,140 @@
+﻿Operation =6
+Option =0
+Where ="(((TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum)=3))"
+Begin InputTables
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID"
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+End
+Begin OutputColumns
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocQstTypNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstDateSaisie"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNotes"
+    GroupLevel =2
+    Alias ="Expr1"
+    Expression ="'PerSocQstResValeur' & [PerSocQstTypID] In ('PerSocQstResValeur1','PerSocQstResV"
+        "aleur2')"
+    GroupLevel =1
+    Alias ="PerSocQstResValeurValeur"
+    Expression ="First(TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.PerSocQstResValeur)"
+End
+Begin Joins
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.PerSocQstResPerSocNum = TBLPERSONNE"
+        "LSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID.PerSocQstTypIDNum = TBLPERSONNELSSOCI"
+        "ETESQUESTIONNAIRESRESULTATS.PerSocQstResPerSocQstTypIDNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = TBLPERSONNELSSOCIETES"
+        "QUESTIONNAIRESTYPESID.PerSocQstTypIDPerSocQstTypNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = TBLPERSONNELSSOCIETES"
+        "QUESTIONNAIRES.PerSocQstPerSocQstTypNum"
+    Flag =1
+End
+Begin Groups
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocQstTypNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstDateSaisie"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstNotes"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypCode"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypLibelle"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateDebut"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateFin"
+    GroupLevel =2
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNbResultat"
+    GroupLevel =2
+    Expression ="'PerSocQstResValeur' & [PerSocQstTypID]"
+    GroupLevel =1
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+Begin
+    Begin
+        dbText "Name" ="PerSocQstResValeur1"
+        dbInteger "ColumnWidth" ="2145"
+        dbBoolean "ColumnHidden" ="0"
+    End
+    Begin
+        dbText "Name" ="PerSocQstResValeur2"
+        dbInteger "ColumnWidth" ="2145"
+        dbBoolean "ColumnHidden" ="0"
+    End
+End
+Begin
+    State =0
+    Left =40
+    Top =62
+    Right =1171
+    Bottom =367
+    Left =-1
+    Top =-1
+    Right =1120
+    Bottom =144
+    Left =0
+    Top =0
+    ColumnsShown =559
+    Begin
+        Left =38
+        Top =6
+        Right =134
+        Bottom =113
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+        Name =""
+    End
+    Begin
+        Left =172
+        Top =6
+        Right =268
+        Bottom =113
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID"
+        Name =""
+    End
+    Begin
+        Left =306
+        Top =6
+        Right =402
+        Bottom =113
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+        Name =""
+    End
+    Begin
+        Left =440
+        Top =6
+        Right =536
+        Bottom =113
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+        Name =""
+    End
+End

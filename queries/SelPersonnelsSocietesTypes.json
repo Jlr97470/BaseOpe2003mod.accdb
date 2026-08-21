@@ -1,0 +1,72 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesTypes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Types De Personnels Par Societes\r\nUtiliser Par :\r\n- SFrmFichePersonnelsPersonnelsSocietes\r\nUtiliser Par :\r\n- SFrmFicheSocietesPersonnelsSocietes"
+      }
+    },
+    "Columns": {
+      "TBLPERSONNELSSOCIETESTYPES.PerSocTypCode": {
+        "Caption": "Fonctions Code",
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESTYPES.PerSocTypLibelle": {
+        "Caption": "Fonctions Libelle",
+        "ColumnWidth": 3405,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESTYPES.PerSocTypRang": {
+        "Caption": "Fonctions Rang",
+        "ColumnWidth": 1545,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 44,
+        "right": 422,
+        "bottom": 349
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 349,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 90,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Types De Personnels Par Societes\r\nUtiliser Par :\r\n- SFrmFichePersonnelsPersonnelsSocietes\r\nUtiliser Par :\r\n- SFrmFicheSocietesPersonnelsSocietes"
+      }
+    }
+  }
+}

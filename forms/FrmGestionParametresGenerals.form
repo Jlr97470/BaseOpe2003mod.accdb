@@ -1,0 +1,338 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    AutoCenter = NotDefault
+    PictureTiling = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =5
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =8505
+    DatasheetFontHeight =10
+    ItemSuffix =19
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    PaintPalette = Begin
+        0x000301000000000000000000
+    End
+    Toolbar ="Outils Channel Precision 2003"
+    RecSrcDt = Begin
+        0x7104f8b0f78de240
+    End
+    RecordSource ="SELECT TBLPARAMETRESGENERALS.* FROM TBLPARAMETRESGENERALS; "
+    Caption ="Listes Des Parametres Generals - 2003"
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    MenuBar ="Menu Channel Precision 2003"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    PictureSizeMode =1
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            SpecialEffect =1
+            FontWeight =700
+            BackColor =12632256
+            ForeColor =128
+            FontName ="Arial"
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            BorderLineStyle =0
+            SpecialEffect =3
+            Width =1701
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            BorderWidth =3
+            BorderLineStyle =0
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BackStyle =1
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BackColor =12632256
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+            BorderColor =12632256
+            BackColor =12632256
+        End
+        Begin TextBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ListBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin ComboBox
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            LabelX =-1701
+            BackColor =12632256
+            BorderColor =12632256
+            FontName ="Arial"
+        End
+        Begin Subform
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+            BorderColor =12632256
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =3
+            BackStyle =0
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            ForeColor =128
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+            FontWeight =700
+            FontName ="Arial"
+            BorderLineStyle =0
+        End
+        Begin FormHeader
+            Height =2430
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =93
+                    TextAlign =1
+                    Top =2130
+                    Width =1125
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiParType"
+                    Caption ="Type"
+                    Tag ="Type"
+                    ControlTipText ="Type"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =1
+                    Left =1133
+                    Top =2126
+                    Width =3390
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiParCode"
+                    Caption ="Code"
+                    Tag ="Code"
+                    ControlTipText ="Code"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =1
+                    Left =4530
+                    Top =2130
+                    Width =3255
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiParValeur"
+                    Caption ="Valeur"
+                    Tag ="Valeur"
+                    ControlTipText ="Valeur"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =2700
+                    Top =1695
+                    Width =3120
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiParametres"
+                    Caption ="Listes Des Parametres Generals"
+                    Tag ="Listes Des Parametres"
+                    ControlTipText ="Listes Des Parametres"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    BackStyle =0
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =87
+                    TextAlign =1
+                    Left =7800
+                    Top =2130
+                    Width =705
+                    Height =300
+                    FontSize =10
+                    BackColor =16777215
+                    ForeColor =0
+                    Name ="EtiParValide"
+                    Caption ="Valide"
+                    Tag ="Valeur"
+                    ControlTipText ="Valeur"
+                End
+            End
+        End
+        Begin Section
+            Height =255
+            Name ="Détail"
+            Begin
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    OverlapFlags =93
+                    BackStyle =0
+                    ListWidth =2268
+                    Left =15
+                    Top =15
+                    Width =1131
+                    BackColor =16777215
+                    Name ="LstParType"
+                    ControlSource ="ParType"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT DISTINCT TBLPARAMETRESGENERALS.ParType FROM TBLPARAMETRESGENERALS; "
+                    ColumnWidths ="2268"
+                    StatusBarText ="Parametre Type"
+                    OnKeyPress ="[Event Procedure]"
+                    ControlTipText ="Parametre Type"
+
+                End
+                Begin TextBox
+                    OverlapFlags =95
+                    BackStyle =0
+                    Left =1140
+                    Width =3381
+                    TabIndex =1
+                    BackColor =16777215
+                    Name ="TxtParCode"
+                    ControlSource ="ParCode"
+                    StatusBarText ="Parametre Code"
+                    OnKeyPress ="[Event Procedure]"
+                    ControlTipText ="Parametre Code"
+
+                End
+                Begin TextBox
+                    OverlapFlags =87
+                    BackStyle =0
+                    Left =4530
+                    Width =3261
+                    TabIndex =2
+                    BackColor =16777215
+                    Name ="TxtParValeur"
+                    ControlSource ="ParValeur"
+                    StatusBarText ="Parametre Valeur"
+                    OnKeyPress ="[Event Procedure]"
+                    ControlTipText ="Parametre Valeur"
+
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =8085
+                    Top =15
+                    Width =170
+                    Height =195
+                    ColumnWidth =2475
+                    TabIndex =3
+                    Name ="CbxParValide"
+                    ControlSource ="ParValide"
+                    StatusBarText ="Parametres Valide (Oui/Non)"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =12632256
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "FrmGestionParametresGenerals.cls"

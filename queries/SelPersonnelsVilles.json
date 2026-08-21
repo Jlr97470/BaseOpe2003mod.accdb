@@ -1,0 +1,59 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsVilles"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Personnels, Villes\r\nUtiliser Par :\r\n- FrmLstPersonnels"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 84,
+        "right": 1171,
+        "bottom": 710
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1102,
+        "bottom": 269
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELS",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 248,
+          "ScrollTop": 7
+        },
+        {
+          "Name": "TBLVILLES",
+          "Alias": "",
+          "Left": 172,
+          "Top": 6,
+          "Right": 268,
+          "Bottom": 98,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Personnels, Villes\r\nUtiliser Par :\r\n- FrmLstPersonnels"
+      }
+    }
+  }
+}

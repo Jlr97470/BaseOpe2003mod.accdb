@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLMENU",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLMENU",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[MenuGroupeNum], [MenuNum]"
+  }
+}

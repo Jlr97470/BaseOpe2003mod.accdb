@@ -1,0 +1,387 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    Modal = NotDefault
+    RecordSelectors = NotDefault
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    ShortcutMenu = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    DividingLines = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =1
+    PictureAlignment =2
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =7935
+    DatasheetFontHeight =10
+    ItemSuffix =27
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    TimerInterval =1000
+    RecSrcDt = Begin
+        0xadbef5abd65fe240
+    End
+    Caption ="A Propos De - 2003"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnTimer ="[Event Procedure]"
+    FilterOnLoad =0
+    AllowLayoutView =0
+    PictureSizeMode =1
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            BorderLineStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            BorderLineStyle =0
+            Width =1701
+            Height =1701
+        End
+        Begin Section
+            Height =4770
+            Name ="Détail"
+            Begin
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =93
+                    Left =90
+                    Top =1800
+                    Width =1605
+                    Height =285
+                    Name ="EtiAccess"
+                    Caption ="Access Version :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =1695
+                    Top =1800
+                    Width =1710
+                    Height =315
+                    Name ="EtiAccessVersion"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =3405
+                    Top =1800
+                    Width =4425
+                    Height =330
+                    Name ="EtiAccessVersionBuild"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =2100
+                    Width =1605
+                    Height =300
+                    Name ="EtiDateCreation"
+                    Caption ="Creer Le :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =223
+                    TextAlign =2
+                    Left =1695
+                    Top =2100
+                    Width =1710
+                    Height =315
+                    Name ="EtiDateCreationVal"
+                    Caption ="31/12/9999"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =2415
+                    Width =1605
+                    Height =300
+                    Name ="EtiDateModification"
+                    Caption ="Modifier Le :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =1695
+                    Top =2415
+                    Width =1710
+                    Height =300
+                    Name ="EtiDateModificationVal"
+                    Caption ="01/01/1900"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =2730
+                    Width =1605
+                    Height =300
+                    Name ="EtiSociete"
+                    Caption ="Societe :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =1695
+                    Top =2730
+                    Width =6135
+                    Height =315
+                    Name ="EtiSocieteVal"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =3045
+                    Width =1605
+                    Height =315
+                    Name ="EtiTitre"
+                    Caption ="Titre :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =1695
+                    Top =3045
+                    Width =6135
+                    Height =315
+                    Name ="EtiTitreVal"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =223
+                    Left =90
+                    Top =3345
+                    Width =1605
+                    Height =330
+                    Name ="EtiSujet"
+                    Caption ="Sujet :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =223
+                    TextAlign =2
+                    Left =1695
+                    Top =3345
+                    Width =6135
+                    Height =315
+                    Name ="EtiSujetVal"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =3675
+                    Width =1605
+                    Height =300
+                    Name ="EtiDirecteur"
+                    Caption ="Directeur :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =1695
+                    Top =3675
+                    Width =6135
+                    Height =315
+                    Name ="EtiDirecteurVal"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =3975
+                    Width =1605
+                    Height =315
+                    Name ="EtiAuteur"
+                    Caption ="Auteur :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =223
+                    TextAlign =2
+                    Left =1695
+                    Top =3975
+                    Width =6135
+                    Height =315
+                    Name ="EtiAutherVal"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =95
+                    Left =90
+                    Top =4305
+                    Width =1605
+                    Height =300
+                    Name ="EtiUtilisateur"
+                    Caption ="Utilisateur :"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =1695
+                    Top =4305
+                    Width =6135
+                    Height =300
+                    Name ="EtiUtilisateurVal"
+                    Caption =" "
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =223
+                    TextAlign =2
+                    Left =3405
+                    Top =2115
+                    Width =4425
+                    Height =315
+                    Name ="EtiDateCreationNom"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =3405
+                    Top =2430
+                    Width =4425
+                    Height =285
+                    Name ="EtiDateModificationNom"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =5250
+                    Top =720
+                    Width =2595
+                    Height =330
+                    Name ="EtiOrdinateurNom"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =5250
+                    Top =150
+                    Width =2595
+                    Height =330
+                    Name ="EtiUtilisateurNom"
+                    FontName ="Arial"
+                End
+                Begin Label
+                    SpecialEffect =4
+                    OldBorderStyle =1
+                    BorderWidth =3
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =5250
+                    Top =1275
+                    Width =2595
+                    Height =330
+                    Name ="EtiOrdinateurDomaine"
+                    FontName ="Arial"
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "FrmAbout.cls"

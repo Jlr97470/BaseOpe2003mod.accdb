@@ -1,0 +1,176 @@
+﻿Operation =1
+Option =8
+Begin InputTables
+    Name ="TBLVILLES"
+    Name ="TBLSOCIETESTYPES"
+    Name ="TBLSOCIETESRESEAUX"
+    Name ="TBLSOCIETESGROUPES"
+    Name ="TBLSOCIETES"
+End
+Begin OutputColumns
+    Expression ="TBLSOCIETES.SocNum"
+    Expression ="TBLSOCIETES.SocDateCre"
+    Expression ="TBLSOCIETES.SocDateMaj"
+    Expression ="TBLSOCIETES.SocSocTypNum"
+    Expression ="TBLSOCIETESTYPES.SocTypLibelle"
+    Expression ="TBLSOCIETES.SocSocGrpNum"
+    Expression ="TBLSOCIETESGROUPES.SocGrpLibelle"
+    Expression ="TBLSOCIETES.SocSocResNum"
+    Expression ="TBLSOCIETESRESEAUX.SocResLibelle"
+    Expression ="TBLSOCIETES.SocCode"
+    Expression ="TBLSOCIETES.SocActif"
+    Expression ="TBLSOCIETES.SocAdhIpe"
+    Expression ="TBLSOCIETES.SocAdhConcours"
+    Expression ="TBLSOCIETES.SocEnseigne"
+    Expression ="TBLSOCIETES.SocRaison"
+    Expression ="TBLSOCIETES.SocAdr"
+    Alias ="SocVilCodePostal"
+    Expression ="TBLVILLES.VilCodePostal"
+    Alias ="SocVilNom"
+    Expression ="TBLVILLES.VilNom"
+    Expression ="TBLSOCIETES.SocTel1Libelle"
+    Expression ="TBLSOCIETES.SocTel1"
+    Expression ="TBLSOCIETES.SocTel2Libelle"
+    Expression ="TBLSOCIETES.SocTel2"
+    Expression ="TBLSOCIETES.SocFax"
+    Expression ="TBLSOCIETES.SocNotes"
+    Expression ="TBLSOCIETES.SocWeb"
+End
+Begin Joins
+    LeftTable ="TBLSOCIETESGROUPES"
+    RightTable ="TBLSOCIETES"
+    Expression ="TBLSOCIETESGROUPES.SocGrpNum=TBLSOCIETES.SocSocGrpNum"
+    Flag =3
+    LeftTable ="TBLSOCIETESRESEAUX"
+    RightTable ="TBLSOCIETES"
+    Expression ="TBLSOCIETESRESEAUX.SocResNum=TBLSOCIETES.SocSocResNum"
+    Flag =3
+    LeftTable ="TBLSOCIETESTYPES"
+    RightTable ="TBLSOCIETES"
+    Expression ="TBLSOCIETESTYPES.SocTypNum=TBLSOCIETES.SocSocTypNum"
+    Flag =1
+    LeftTable ="TBLVILLES"
+    RightTable ="TBLSOCIETES"
+    Expression ="TBLVILLES.VilNum=TBLSOCIETES.SocVilNum"
+    Flag =3
+End
+Begin OrderBy
+    Expression ="TBLSOCIETES.SocCode"
+    Flag =0
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="0"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbText "Description" ="Selection Des Societes, Types, Groupes, Reseaux, Villes\015\012Utiliser Par:\015"
+    "\012- FrmLstSocietes\015\012- SFrmFichePersonnelsPersonnelsSocietes"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+Begin
+    Begin
+        dbText "Name" ="TBLSOCIETES.SocCode"
+        dbMemo "Caption" ="Code"
+        dbInteger "ColumnWidth" ="885"
+        dbBoolean "ColumnHidden" ="0"
+    End
+    Begin
+        dbText "Name" ="TBLSOCIETES.SocEnseigne"
+        dbInteger "ColumnWidth" ="3150"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Enseigne"
+    End
+    Begin
+        dbText "Name" ="TBLSOCIETES.SocRaison"
+        dbInteger "ColumnWidth" ="2955"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Raison"
+    End
+    Begin
+        dbText "Name" ="TBLSOCIETESRESEAUX.SocResLibelle"
+        dbInteger "ColumnWidth" ="1710"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Reseau"
+    End
+    Begin
+        dbText "Name" ="TBLSOCIETESTYPES.SocTypLibelle"
+        dbInteger "ColumnWidth" ="2490"
+        dbBoolean "ColumnHidden" ="0"
+    End
+    Begin
+        dbText "Name" ="TBLSOCIETES.SocAdr"
+        dbInteger "ColumnWidth" ="4335"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Adresse"
+    End
+    Begin
+        dbText "Name" ="SocVilCodePostal"
+        dbInteger "ColumnWidth" ="1245"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Code Postal"
+    End
+    Begin
+        dbText "Name" ="SocVilNom"
+        dbInteger "ColumnWidth" ="2130"
+        dbBoolean "ColumnHidden" ="0"
+        dbMemo "Caption" ="Ville"
+    End
+End
+Begin
+    State =0
+    Left =40
+    Top =62
+    Right =1171
+    Bottom =634
+    Left =-1
+    Top =-1
+    Right =1124
+    Bottom =411
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =7
+        Top =92
+        Right =162
+        Bottom =184
+        Top =0
+        Name ="TBLSOCIETESGROUPES"
+        Name =""
+    End
+    Begin
+        Left =454
+        Top =6
+        Right =627
+        Bottom =98
+        Top =0
+        Name ="TBLVILLES"
+        Name =""
+    End
+    Begin
+        Left =7
+        Top =6
+        Right =161
+        Bottom =83
+        Top =0
+        Name ="TBLSOCIETESTYPES"
+        Name =""
+    End
+    Begin
+        Left =6
+        Top =187
+        Right =161
+        Bottom =264
+        Top =0
+        Name ="TBLSOCIETESRESEAUX"
+        Name =""
+    End
+    Begin
+        Left =306
+        Top =6
+        Right =424
+        Bottom =368
+        Top =0
+        Name ="TBLSOCIETES"
+        Name =""
+    End
+End

@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLPERSONNELSSOCIETESTYPES",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLPERSONNELSSOCIETESTYPES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[PerSocTypLibelle]"
+  }
+}

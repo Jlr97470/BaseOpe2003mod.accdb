@@ -1,0 +1,86 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesOperationsTypes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Operations Types Des Personnels Par Societes\r\nUtiliser Par:\r\n- FrmSaisiesOperationsTypes"
+      }
+    },
+    "Columns": {
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypCode": {
+        "Caption": "Code",
+        "ColumnWidth": 2100,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypDateDebut": {
+        "Caption": "Date Debut",
+        "ColumnWidth": 2595,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypDateFin": {
+        "Caption": "Date Fin",
+        "ColumnWidth": 2310,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypLibelle": {
+        "Caption": "Libelle",
+        "ColumnWidth": 2220,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypNbResultat": {
+        "Caption": "Nb Resultats",
+        "ColumnWidth": 2595,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESOPERATIONSTYPES.PerSocOpeTypNum": {
+        "ColumnWidth": 4095,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -59,
+        "top": 221,
+        "right": 1105,
+        "bottom": 526
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESOPERATIONSTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Operations Types Des Personnels Par Societes\r\nUtiliser Par:\r\n- FrmSaisiesOperationsTypes"
+      }
+    }
+  }
+}

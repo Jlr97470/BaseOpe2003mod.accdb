@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLPERSONNELSSOCIETESOPERATIONSTYPESID",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLPERSONNELSSOCIETESOPERATIONSTYPESID",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[PerSocOpeTypIDPerSocOpeTypNum], [PerSocOpeTypID]"
+  }
+}

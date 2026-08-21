@@ -1,0 +1,86 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesQuestionnairesTypes"
+  },
+  "Items": {
+    "QueryType": 0,
+    "OptionFlag": 8,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types Des Personnels Par Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    },
+    "Columns": {
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypCode": {
+        "Caption": "Code",
+        "ColumnWidth": 1140,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateDebut": {
+        "Caption": "Date Debut",
+        "ColumnWidth": 1590,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypDateFin": {
+        "Caption": "Date Fin",
+        "ColumnWidth": 1350,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypLibelle": {
+        "Caption": "Libelle",
+        "ColumnWidth": 1875,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNbResultat": {
+        "Caption": "Nb Resultats",
+        "ColumnWidth": 1635,
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum": {
+        "ColumnWidth": 4455,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": -92,
+        "top": 109,
+        "right": 1072,
+        "bottom": 414
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1157,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 196,
+          "Bottom": 105,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types Des Personnels Par Societes\r\nUtiliser Par:\r\n- FrmSaisiesQuestionnairesTypes"
+      }
+    }
+  }
+}

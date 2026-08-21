@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLPERSONNELS",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLPERSONNELS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[PerNom], [PerPrenom]"
+  }
+}

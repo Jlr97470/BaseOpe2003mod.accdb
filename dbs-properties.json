@@ -1,0 +1,196 @@
+﻿{
+  "Info": {
+    "Class": "clsDbProperty",
+    "Description": "Database Properties (DAO)"
+  },
+  "Items": {
+    "AccessVersion": {
+      "Value": "09.50",
+      "Type": 10
+    },
+    "AllowBuiltInToolbars": {
+      "Value": true,
+      "Type": 1
+    },
+    "AllowFullMenus": {
+      "Value": true,
+      "Type": 1
+    },
+    "AllowShortcutMenus": {
+      "Value": true,
+      "Type": 1
+    },
+    "AllowSpecialKeys": {
+      "Value": true,
+      "Type": 1
+    },
+    "AllowToolbarChanges": {
+      "Value": true,
+      "Type": 1
+    },
+    "ANSI Query Mode": {
+      "Value": 0,
+      "Type": 4
+    },
+    "AppIcon": {
+      "Value": "rel:DATA\\ICONES\\LOGO.ICO",
+      "Type": 10
+    },
+    "AppTitle": {
+      "Value": "CHANEL 2003 (FRONTALE)",
+      "Type": 10
+    },
+    "Auto Compact": {
+      "Value": 1,
+      "Type": 4
+    },
+    "Build": {
+      "Value": 126,
+      "Type": 4
+    },
+    "CollatingOrder": {
+      "Value": 1036,
+      "Type": 3
+    },
+    "Connect": {
+      "Value": "",
+      "Type": 12
+    },
+    "DesignMasterID": {
+      "Value": "",
+      "Type": 15
+    },
+    "Four-Digit Year Formatting": {
+      "Value": 1,
+      "Type": 4
+    },
+    "HasOfflineLists": {
+      "Value": 70,
+      "Type": 3
+    },
+    "Log Name AutoCorrect Changes": {
+      "Value": 1,
+      "Type": 4
+    },
+    "Name": {
+      "Value": "rel:BaseOpe2003mod.accdb",
+      "Type": 12
+    },
+    "NavPane Category": {
+      "Value": 0,
+      "Type": 4
+    },
+    "NavPane Closed": {
+      "Value": 0,
+      "Type": 4
+    },
+    "NavPane Sort By": {
+      "Value": 1,
+      "Type": 4
+    },
+    "NavPane View By": {
+      "Value": 2,
+      "Type": 4
+    },
+    "NavPane Width": {
+      "Value": 422,
+      "Type": 4
+    },
+    "Perform Name AutoCorrect": {
+      "Value": 0,
+      "Type": 4
+    },
+    "ProjVer": {
+      "Value": 142,
+      "Type": 3
+    },
+    "QueryTimeout": {
+      "Value": 60,
+      "Type": 3
+    },
+    "RecordsAffected": {
+      "Value": 0,
+      "Type": 4
+    },
+    "ReplicaID": {
+      "Value": "",
+      "Type": 15
+    },
+    "Row Limit": {
+      "Value": 10000,
+      "Type": 4
+    },
+    "Show Navigation Pane Search Bar": {
+      "Value": 0,
+      "Type": 4
+    },
+    "Show Values in Indexed": {
+      "Value": 1,
+      "Type": 4
+    },
+    "Show Values in Non-Indexed": {
+      "Value": 1,
+      "Type": 4
+    },
+    "Show Values in Remote": {
+      "Value": 0,
+      "Type": 4
+    },
+    "Show Values in Server": {
+      "Value": 0,
+      "Type": 4
+    },
+    "Show Values in Snapshot": {
+      "Value": 1,
+      "Type": 4
+    },
+    "Show Values Limit": {
+      "Value": 1000,
+      "Type": 4
+    },
+    "StartUpShowDBWindow": {
+      "Value": false,
+      "Type": 1
+    },
+    "StartUpShowStatusBar": {
+      "Value": true,
+      "Type": 1
+    },
+    "Theme Resource Name": {
+      "Value": "Thème Office",
+      "Type": 10
+    },
+    "Track Name AutoCorrect Info": {
+      "Value": 0,
+      "Type": 4
+    },
+    "Transactions": {
+      "Value": true,
+      "Type": 1
+    },
+    "Updatable": {
+      "Value": true,
+      "Type": 1
+    },
+    "Use Default Connection File": {
+      "Value": 0,
+      "Type": 4
+    },
+    "Use Default Page Folder": {
+      "Value": 0,
+      "Type": 4
+    },
+    "UseAppIconForFrmRpt": {
+      "Value": true,
+      "Type": 1
+    },
+    "Version": {
+      "Value": "12.0",
+      "Type": 12
+    },
+    "WebDesignMode": {
+      "Value": 0,
+      "Type": 2
+    }
+  }
+}

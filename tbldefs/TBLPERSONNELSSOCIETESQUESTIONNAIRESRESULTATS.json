@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[PerSocQstResPerSocNum], [PerSocQstResPerSocQstTypIDNum]"
+  }
+}

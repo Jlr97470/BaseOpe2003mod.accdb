@@ -1,0 +1,77 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesQuestionnairesTypesResultats"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires, Questionnaires Types, Questionnaires Resultats Des Personnels Par Societes\r\n"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 44,
+        "top": 84,
+        "right": 1038,
+        "bottom": 536
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 987,
+        "bottom": 344
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES",
+          "Alias": "",
+          "Left": 616,
+          "Top": 142,
+          "Right": 970,
+          "Bottom": 279,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETES",
+          "Alias": "",
+          "Left": 19,
+          "Top": 23,
+          "Right": 260,
+          "Bottom": 190,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS",
+          "Alias": "",
+          "Left": 617,
+          "Top": 8,
+          "Right": 971,
+          "Bottom": 115,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRES",
+          "Alias": "",
+          "Left": 290,
+          "Top": 113,
+          "Right": 587,
+          "Bottom": 235,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires, Questionnaires Types, Questionnaires Resultats Des Personnels Par Societes\r\n"
+      }
+    }
+  }
+}

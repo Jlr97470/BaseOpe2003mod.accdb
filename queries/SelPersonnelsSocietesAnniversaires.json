@@ -1,0 +1,73 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesAnniversaires"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Anniversaires Des Personnels Par Societes\r\nUtiliser Par :\r\n- FrmFichePersonnels"
+      }
+    },
+    "Columns": {
+      "TBLPERSONNELSSOCIETESANNIVERSAIRES.PerSocAnnAnnee": {
+        "Caption": "Annee",
+        "AggregateType": -1
+      },
+      "TBLPERSONNELSSOCIETESANNIVERSAIRES.PerSocAnnDateSaisie": {
+        "Caption": "Date Saisie",
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 76,
+        "top": 124,
+        "right": 1130,
+        "bottom": 602
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1043,
+        "bottom": 234
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESANNIVERSAIRES",
+          "Alias": "",
+          "Left": 241,
+          "Top": 2,
+          "Right": 530,
+          "Bottom": 116,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 214,
+          "Bottom": 171,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Anniversaires Des Personnels Par Societes\r\nUtiliser Par :\r\n- FrmFichePersonnels"
+      }
+    }
+  }
+}

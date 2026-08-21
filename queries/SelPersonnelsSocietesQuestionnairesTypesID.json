@@ -1,0 +1,72 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesQuestionnairesTypesID"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types ID Des Personnels Par Societes\r\n"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 25,
+        "top": 162,
+        "right": 1102,
+        "bottom": 731
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1066,
+        "bottom": 244
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 539,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETES",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 113,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID",
+          "Alias": "",
+          "Left": 570,
+          "Top": 24,
+          "Right": 901,
+          "Bottom": 191,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRES",
+          "Alias": "",
+          "Left": 238,
+          "Top": 11,
+          "Right": 519,
+          "Bottom": 133,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Questionnaires Types ID Des Personnels Par Societes\r\n"
+      }
+    }
+  }
+}

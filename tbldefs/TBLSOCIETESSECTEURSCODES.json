@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLSOCIETESSECTEURSCODES",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLSOCIETESSECTEURSCODES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[SocSecCodCode]"
+  }
+}

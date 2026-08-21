@@ -1,0 +1,290 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    PictureTiling = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =0
+    PictureAlignment =5
+    PictureSizeMode =1
+    DatasheetGridlinesBehavior =3
+    Cycle =1
+    GridY =10
+    Width =8496
+    ItemSuffix =536
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    DatasheetGridlinesColor =12632256
+    PaintPalette = Begin
+        0x0003100000000000800000000080000080800000000080008000800000808000 ,
+        0x80808000c0c0c000ff00000000ff0000ffff00000000ff00ff00ff0000ffff00 ,
+        0xffffff0000000000
+    End
+    OnUnload ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xfae170a5b38be240
+    End
+    RecordSource ="SELECT TBLPERSONNELSSOCIETES.PerSocPerNum, TBLPERSONNELSSOCIETESQUESTIONNAIRESTY"
+        "PES.*, TBLPERSONNELSSOCIETESQUESTIONNAIRES.* FROM TBLPERSONNELSSOCIETES INNER JO"
+        "IN (TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES INNER JOIN TBLPERSONNELSSOCIETESQUE"
+        "STIONNAIRES ON TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum=TBLPERSO"
+        "NNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocQstTypNum) ON TBLPERSONNELSSOCIETES.P"
+        "erSocNum=TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum ORDER BY TBLPERS"
+        "ONNELSSOCIETESQUESTIONNAIRES.PerSocQstDateSaisie DESC; "
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+        End
+        Begin Line
+            Width =1701
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            Width =1701
+            Height =1701
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            Width =1701
+            Height =1701
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            Width =4536
+            Height =2835
+            LabelX =-1701
+        End
+        Begin TextBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ListBox
+            SpecialEffect =2
+            Width =1701
+            Height =1417
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            BackColor =-2147483643
+            ForeColor =-2147483640
+        End
+        Begin Subform
+            SpecialEffect =2
+            Width =1701
+            Height =1701
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            Width =4536
+            Height =2835
+        End
+        Begin ToggleButton
+            Width =283
+            Height =283
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+        End
+        Begin Tab
+            BackStyle =0
+            Width =5103
+            Height =3402
+        End
+        Begin FormHeader
+            Height =240
+            BackColor =0
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    Width =1125
+                    Height =240
+                    FontWeight =700
+                    ForeColor =12615935
+                    Name ="EtiPerSocQstTypCode"
+                    Caption ="Code:"
+                End
+                Begin Label
+                    OverlapFlags =223
+                    Left =1110
+                    Width =3975
+                    Height =240
+                    FontWeight =700
+                    ForeColor =12615935
+                    Name ="EtiPerSocQstTypLibelle"
+                    Caption ="Libelle:"
+                End
+                Begin Label
+                    OverlapFlags =87
+                    Left =5085
+                    Width =1125
+                    Height =240
+                    FontWeight =700
+                    ForeColor =12615935
+                    Name ="EtiPerSocQstTypDateDebut"
+                    Caption ="Date Debut:"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =6225
+                    Width =1110
+                    Height =240
+                    FontWeight =700
+                    ForeColor =12615935
+                    Name ="EtiPerSocQstTypDateFin"
+                    Caption ="Date Fin:"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =7350
+                    Width =1125
+                    Height =240
+                    FontWeight =700
+                    ForeColor =12615935
+                    Name ="EtiPerSocQstDateSaisie"
+                    Caption ="Date Saisie:"
+                End
+            End
+        End
+        Begin Section
+            Height =240
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Width =1116
+                    ColumnWidth =4080
+                    Name ="TxtPerSocQstTypCode"
+                    ControlSource ="PerSocQstTypCode"
+                    StatusBarText ="Personnels Societes Operations Types Code"
+                    OnDblClick ="[Event Procedure]"
+                    InputMask ="AAAAAA;;_"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    Left =1140
+                    Width =3951
+                    ColumnWidth =4185
+                    TabIndex =1
+                    Name ="TxtPerSocQstTypLibelle"
+                    ControlSource ="PerSocQstTypLibelle"
+                    StatusBarText ="Personnels Societes Operations Types Libelle"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =95
+                    IMESentenceMode =3
+                    Left =5100
+                    Width =1131
+                    ColumnWidth =4605
+                    TabIndex =2
+                    Name ="TxtPerSocQstTypDateDebut"
+                    ControlSource ="PerSocQstTypDateDebut"
+                    Format ="Short Date"
+                    StatusBarText ="Personnels Societes Operations Types Date Debut"
+                    InputMask ="99/99/0000;0;_"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =95
+                    IMESentenceMode =3
+                    Left =6225
+                    Width =1131
+                    ColumnWidth =4365
+                    TabIndex =3
+                    Name ="TxtPerSocQstTypDateFin"
+                    ControlSource ="PerSocQstTypDateFin"
+                    Format ="Short Date"
+                    StatusBarText ="Personnels Societes Operations Types Date Fin"
+                    InputMask ="99/99/0000;0;_"
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =87
+                    IMESentenceMode =3
+                    Left =7350
+                    Width =1146
+                    ColumnWidth =4050
+                    TabIndex =4
+                    Name ="TxtPerSocQstDateSaisie"
+                    ControlSource ="PerSocQstDateSaisie"
+                    Format ="Short Date"
+                    StatusBarText ="Personnels Societes Operations Date Saisie"
+                    InputMask ="99/99/0000;0;_"
+                End
+            End
+        End
+        Begin FormFooter
+            Visible = NotDefault
+            Height =0
+            BackColor =-2147483633
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmFichePersonnelsQuestionnaires.cls"

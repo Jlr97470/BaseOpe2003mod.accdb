@@ -1,0 +1,90 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelParametresGeneralsDetailler"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Parametres Generals Detailler\r\nUtiliser Par:\r\n- FrmGestionParametresGenerals"
+      }
+    },
+    "Columns": {
+      "ParCode1": {
+        "ColumnOrder": 5,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParCode2": {
+        "ColumnOrder": 7,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParCode3": {
+        "ColumnOrder": 6,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParCode4": {
+        "ColumnOrder": 8,
+        "ColumnWidth": 945,
+        "AggregateType": -1
+      },
+      "ParType1": {
+        "ColumnOrder": 2,
+        "ColumnWidth": 915,
+        "AggregateType": -1
+      },
+      "ParType2": {
+        "ColumnOrder": 3,
+        "ColumnWidth": 915,
+        "AggregateType": -1
+      },
+      "TBLPARAMETRESGENERALS.ParCode": {
+        "ColumnOrder": 4,
+        "AggregateType": -1
+      },
+      "TBLPARAMETRESGENERALS.ParType": {
+        "ColumnOrder": 1,
+        "AggregateType": -1
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 62,
+        "top": 44,
+        "right": 1258,
+        "bottom": 349
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1189,
+        "bottom": 144
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLPARAMETRESGENERAL",
+          "Alias": "",
+          "Left": 38,
+          "Top": 6,
+          "Right": 134,
+          "Bottom": 38,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Parametres Generals Detailler\r\nUtiliser Par:\r\n- FrmGestionParametresGenerals"
+      }
+    }
+  }
+}

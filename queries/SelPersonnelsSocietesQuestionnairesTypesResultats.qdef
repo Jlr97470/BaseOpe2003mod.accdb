@@ -1,0 +1,98 @@
+﻿Operation =1
+Option =0
+Begin InputTables
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+    Name ="TBLPERSONNELSSOCIETES"
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+End
+Begin OutputColumns
+    Expression ="TBLPERSONNELSSOCIETES.*"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRES.*"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.*"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.*"
+End
+Begin Joins
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.PerSocQstResPerSocNum = TBLPERSONNE"
+        "LSSOCIETESQUESTIONNAIRES.PerSocQstPerSocNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETES"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+    Expression ="TBLPERSONNELSSOCIETES.PerSocNum = TBLPERSONNELSSOCIETESQUESTIONNAIRES.PerSocQstP"
+        "erSocNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+    Expression ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES.PerSocQstTypNum = TBLPERSONNELSSOCIETES"
+        "QUESTIONNAIRES.PerSocQstPerSocQstTypNum"
+    Flag =1
+    LeftTable ="TBLPERSONNELSSOCIETES"
+    RightTable ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+    Expression ="TBLPERSONNELSSOCIETES.PerSocNum = TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.P"
+        "erSocQstResPerSocNum"
+    Flag =1
+End
+dbBoolean "ReturnsRecords" ="-1"
+dbInteger "ODBCTimeout" ="60"
+dbByte "RecordsetType" ="0"
+dbBoolean "OrderByOn" ="0"
+dbByte "Orientation" ="0"
+dbByte "DefaultView" ="2"
+dbText "Description" ="Selection Des Questionnaires, Questionnaires Types, Questionnaires Resultats Des"
+    " Personnels Par Societes\015\012"
+dbMemo "Filter" ="((SelPersonnelsSocietesQuestionnairesTypesResultats.PerSocQstResPerSocQstTypIDNu"
+    "m=15))"
+Begin
+End
+Begin
+    State =0
+    Left =44
+    Top =84
+    Right =1038
+    Bottom =536
+    Left =-1
+    Top =-1
+    Right =987
+    Bottom =344
+    Left =0
+    Top =0
+    ColumnsShown =539
+    Begin
+        Left =616
+        Top =142
+        Right =970
+        Bottom =279
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPES"
+        Name =""
+    End
+    Begin
+        Left =19
+        Top =23
+        Right =260
+        Bottom =190
+        Top =0
+        Name ="TBLPERSONNELSSOCIETES"
+        Name =""
+    End
+    Begin
+        Left =617
+        Top =8
+        Right =971
+        Bottom =115
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS"
+        Name =""
+    End
+    Begin
+        Left =290
+        Top =113
+        Right =587
+        Bottom =235
+        Top =0
+        Name ="TBLPERSONNELSSOCIETESQUESTIONNAIRES"
+        Name =""
+    End
+End

@@ -1,0 +1,263 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    MaxButton = NotDefault
+    MinButton = NotDefault
+    ControlBox = NotDefault
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    CloseButton = NotDefault
+    AllowAdditions = NotDefault
+    AllowEdits = NotDefault
+    ScrollBars =0
+    ViewsAllowed =1
+    BorderStyle =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridY =10
+    Width =10845
+    ItemSuffix =7
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
+    Filter ="Resultat"
+    RecSrcDt = Begin
+        0x2c0896f1b28be240
+    End
+    RecordSource ="SELECT TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID.*, TBLPERSONNELSSOCIETESQUESTI"
+        "ONNAIRESRESULTATS.PerSocQstResPerSocNum, TBLPERSONNELSSOCIETESQUESTIONNAIRESRESU"
+        "LTATS.PerSocQstResValeur FROM TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID INNER J"
+        "OIN TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS ON TBLPERSONNELSSOCIETESQUESTIO"
+        "NNAIRESTYPESID.PerSocQstTypIDNum=TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTATS.Pe"
+        "rSocQstResPerSocQstTypIDNum WHERE (((TBLPERSONNELSSOCIETESQUESTIONNAIRESRESULTAT"
+        "S.PerSocQstResPerSocNum)=Formulaires!FrmSaisiesQuestionnairesTypes!CmbPerSocQstP"
+        "erSocNum)) ORDER BY TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID.PerSocQstTypID; "
+    OnCurrent ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    AfterUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnActivate ="[Event Procedure]"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DisplayOnSharePointSite =0
+    AllowLayoutView =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            Width =850
+            Height =850
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            Width =1701
+            Height =283
+            FontSize =8
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            SpecialEffect =2
+            OldBorderStyle =0
+            Width =1701
+            LabelX =-1701
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            Width =1701
+            LabelX =-1701
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =240
+            Name ="EntêteFormulaire"
+            Begin
+                Begin Label
+                    OldBorderStyle =1
+                    OverlapFlags =93
+                    Width =855
+                    Height =240
+                    FontWeight =700
+                    Name ="EtiPerSocQstTypID"
+                    Caption ="Type ID"
+                    FontName ="Arial"
+                    ControlTipText ="Personnel Societe Questionnaire Type ID"
+                End
+                Begin Label
+                    OldBorderStyle =1
+                    OverlapFlags =87
+                    Left =855
+                    Width =4815
+                    Height =240
+                    FontWeight =700
+                    Name ="EtiPerSocQstTypIdLibelle"
+                    Caption ="Type ID Libelle"
+                    FontName ="Arial"
+                    ControlTipText ="Personnel Societe Questionnaire Type ID Libelle"
+                End
+                Begin Label
+                    OldBorderStyle =1
+                    OverlapFlags =85
+                    Left =5685
+                    Width =5145
+                    Height =240
+                    FontWeight =700
+                    Name ="EtiPerSocQstResValeur"
+                    Caption ="Resultat"
+                    FontName ="Arial"
+                    ControlTipText ="Personnel Societe Questionaire Resultat Valeur"
+                End
+            End
+        End
+        Begin Section
+            Height =255
+            Name ="Détail"
+            Begin
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =93
+                    TextAlign =2
+                    BackStyle =0
+                    Width =861
+                    Height =255
+                    ColumnWidth =3585
+                    Name ="TxtPerSocQstTypID"
+                    ControlSource ="PerSocQstTypID"
+                    StatusBarText ="Personnel Societe Questionnaire Type ID"
+                    FontName ="Arial"
+                    ControlTipText ="Personnel Societe Questionnaire Type ID"
+
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    SpecialEffect =0
+                    OverlapFlags =95
+                    BackStyle =0
+                    Left =855
+                    Width =4821
+                    Height =255
+                    ColumnWidth =4185
+                    TabIndex =1
+                    Name ="TxtPerSocQstTypIDLibelle"
+                    ControlSource ="PerSocQstTypIDLibelle"
+                    StatusBarText ="Personnel Societe Questionnaire Type ID Libelle"
+                    FontName ="Arial"
+                    ControlTipText ="Personnel Societe Questionnaire Type ID Libelle"
+
+                End
+                Begin ComboBox
+                    ColumnHeads = NotDefault
+                    TabStop = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =119
+                    TextAlign =3
+                    ListWidth =2268
+                    Left =5670
+                    Top =15
+                    Width =5175
+                    TabIndex =2
+                    Name ="CmbPerSocQstResValeur"
+                    ControlSource ="PerSocQstResValeur"
+                    RowSourceType ="Value List"
+                    ColumnWidths ="2268"
+                    OnDblClick ="[Event Procedure]"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            Name ="PiedFormulaire"
+        End
+    End
+End
+CodeBehindForm
+' See "SFrmSaisiesQuestionnairesTypesQuestionnairesResultats.cls"

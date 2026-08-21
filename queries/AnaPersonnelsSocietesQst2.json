@@ -1,0 +1,9 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "AnaPersonnelsSocietesQst2"
+  },
+  "Items": {
+    "QueryType": 16
+  }
+}

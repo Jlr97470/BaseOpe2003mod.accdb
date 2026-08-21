@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "MSysAccessStorageSTGREL",
+    "Attributes": 4096,
+    "Table": "MSysAccessStorage",
+    "ForeignTable": "MSysAccessStorage",
+    "Fields": [
+      {
+        "Name": "Id",
+        "ForeignName": "ParentId"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+﻿Version =196611
+ColumnsShown =2
+Begin
+    Condition ="VerifieFichiers()=False"
+    Action ="MsgBox"
+    Comment ="Verification Des Fichiers De La Base Et Ouverture Si Ok"
+    Argument ="Attention Probleme De Fichier"
+    Argument ="-1"
+    Argument ="1"
+    Argument ="CDP 2003 - Verification Des Fichiers - DataSource/Safari 2003"
+End
+Begin
+    Action ="RunCode"
+    Comment ="Initialisation De La Gestion De La Messagerie"
+    Argument ="InitialiseMessagerie () "
+End
+Begin
+    Action ="OpenForm"
+    Comment ="Ouvre Formulaire About"
+    Argument ="FrmAbout"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="3"
+End
+Begin
+    Action ="OpenForm"
+    Comment ="Ouvre Menu Principale"
+    Argument ="FrmMenuPrincipale"
+    Argument ="0"
+    Argument =""
+    Argument =""
+    Argument ="1"
+    Argument ="0"
+End

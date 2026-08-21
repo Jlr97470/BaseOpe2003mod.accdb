@@ -1,0 +1,63 @@
+﻿{
+  "Info": {
+    "Class": "clsDbQuery",
+    "Description": "SelPersonnelsSocietesOperationsTypesID"
+  },
+  "Items": {
+    "QueryType": 0,
+    "QueryProperties": {
+      "ODBCTimeout": {
+        "Type": 3,
+        "Value": 0
+      },
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Operations Types ID Des Personnels Par Societes\r\n"
+      }
+    },
+    "DesignLayout": {
+      "State": 0,
+      "Window": {
+        "left": 47,
+        "top": 95,
+        "right": 1124,
+        "bottom": 664
+      },
+      "DesignerPane": {
+        "left": -1,
+        "top": -1,
+        "right": 1070,
+        "bottom": 244
+      },
+      "GridLeft": 0,
+      "GridTop": 0,
+      "ColumnsShown": 2587,
+      "Tables": [
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRESTYPESID",
+          "Alias": "",
+          "Left": 321,
+          "Top": 35,
+          "Right": 652,
+          "Bottom": 209,
+          "ScrollTop": 0
+        },
+        {
+          "Name": "TBLPERSONNELSSOCIETESQUESTIONNAIRES",
+          "Alias": "",
+          "Left": 10,
+          "Top": 5,
+          "Right": 291,
+          "Bottom": 134,
+          "ScrollTop": 0
+        }
+      ]
+    },
+    "Properties": {
+      "Description": {
+        "Type": 10,
+        "Value": "Selection Des Operations Types ID Des Personnels Par Societes\r\n"
+      }
+    }
+  }
+}

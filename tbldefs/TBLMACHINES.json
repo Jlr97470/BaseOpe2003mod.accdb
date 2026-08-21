@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "TBLMACHINES",
+    "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
+    "SourceTableName": "TBLMACHINES",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[MacNom], [MacUtilisateur], [MacDomaine]"
+  }
+}
