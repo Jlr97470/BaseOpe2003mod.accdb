@@ -8,6 +8,6 @@
     "Connect": ";DATABASE=rel:BaseOpe2003fich.accdb",
     "SourceTableName": "TBLPERSONNELSSOCIETESACTIFS",
     "Attributes": 1073741824,
-    "PrimaryKey": "[PerSocActPerSocNum], [-PerSocActDate]"
+    "PrimaryKey": "[PerSocActPerSocNum], [PerSocActDate]"
   }
 }

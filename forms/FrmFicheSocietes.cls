@@ -365,11 +365,11 @@ Private Sub Form_Current()
 
    RsSocPerRVRDVR.Close
 
-   EtiPreChanel.Visible = (Nz(SocSocResNum, 0) = 1)
+  ' EtiPreChanel.Visible = (Nz(SocSocResNum, 0) = 1)
 
-   EtiPrePrecision.Visible = (Nz(SocSocResNum, 0) = 1)
+  ' EtiPrePrecision.Visible = (Nz(SocSocResNum, 0) = 1)
 
-   ImgPreChanel.Visible = (Nz(SocSocResNum, 0) = 1)
+  ' ImgPreChanel.Visible = (Nz(SocSocResNum, 0) = 1)
 
    Rafraichir (RAFRAICHIRDEPLACEMENT)
 

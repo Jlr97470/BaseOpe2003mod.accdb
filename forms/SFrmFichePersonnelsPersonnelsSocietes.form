@@ -485,6 +485,13 @@ Begin Form
                     ColumnWidth =2310
                     TabIndex =4
                     BackColor =16777215
+                    ConditionalFormat = Begin
+                        0x0100000088000000010000000100000000000000000000001300000001000000 ,
+                        0x0000ff00ffffff00000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b0050006500720053006f006300410063007400690066005d003d0054007200 ,
+                        0x7500650000000000
+                    End
                     Name ="CmbPerSocPerSocTypCode"
                     ControlSource ="PerSocPerSocTypCode"
                     RowSourceType ="Table/Query"
@@ -505,6 +512,13 @@ Begin Form
                     ColumnWidth =2310
                     TabIndex =2
                     BackColor =16777215
+                    ConditionalFormat = Begin
+                        0x0100000088000000010000000100000000000000000000001300000001000000 ,
+                        0x0000ff00ffffff00000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b0050006500720053006f006300410063007400690066005d003d0054007200 ,
+                        0x7500650000000000
+                    End
                     Name ="CmbPerSocSocNum"
                     ControlSource ="PerSocSocNum"
                     RowSourceType ="Table/Query"
@@ -527,6 +541,14 @@ Begin Form
                         "um=\" & [PerSocNum]),\"AUCUNE\")"
                     StatusBarText ="Date Adherent"
                     ControlTipText ="Date Adherent"
+                    ConditionalFormat = Begin
+                        0x01000000be000000020000000100000000000000000000001600000001000000 ,
+                        0x0000ff00ffffff000100000000000000170000002e00000001000000ff000000 ,
+                        0xffffff0000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b0050006500720053006f0063004100640068006500720065006e0074005d00 ,
+                        0x3d005400720075006500000000005b0050006500720053006f00630041006400 ,
+                        0x68006500720065006e0074005d003d00460061006c007300650000000000
+                    End
 
                 End
                 Begin TextBox
@@ -541,6 +563,13 @@ Begin Form
                     ControlSource ="=CmbPerSocSocNum.Column(2)"
                     StatusBarText ="Societes Enseigne"
                     ControlTipText ="Societes Enseigne"
+                    ConditionalFormat = Begin
+                        0x0100000088000000010000000100000000000000000000001300000001000000 ,
+                        0x0000ff00ffffff00000000000000000000000000000000000000000000000000 ,
+                        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b0050006500720053006f006300410063007400690066005d003d0054007200 ,
+                        0x7500650000000000
+                    End
 
                 End
                 Begin TextBox
@@ -555,6 +584,14 @@ Begin Form
                         "\" & [PerSocNum]),\"AUCUNE\")"
                     StatusBarText ="Date Adherent"
                     ControlTipText ="Date Adherent"
+                    ConditionalFormat = Begin
+                        0x01000000b2000000020000000100000000000000000000001300000001000000 ,
+                        0x0000ff00ffffff000100000000000000140000002800000001000000ff000000 ,
+                        0xffffff0000000000000000000000000000000000000000000000000000000000 ,
+                        0x5b0050006500720053006f006300410063007400690066005d003d0054007200 ,
+                        0x75006500000000005b0050006500720053006f00630041006300740069006600 ,
+                        0x5d003d00460061006c007300650000000000
+                    End
 
                 End
                 Begin TextBox
